@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Australian Public Art Collections</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <p class="eyebrow">Australian public art collections</p>
+        <h1>Art in Brisbane’s public spaces</h1>
+        <p class="intro">This first map locates artworks in Brisbane City Council’s collection. Select a material in the legend to focus on that part of the collection.</p>
+      </header>
+
+      <section aria-labelledby="brisbane-map-heading">
+        <h2 id="brisbane-map-heading">Brisbane public artworks</h2>
+        <div id="brisbane-map" class="chart" aria-label="Map of public artworks in Brisbane"></div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="js/visualisations.js"></script>
+  </body>
+</html>

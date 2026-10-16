@@ -1,0 +1,119 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Public artworks in Brisbane City Council's collection, coloured by recorded material.",
+  "width": 720,
+  "height": 540,
+  "projection": {
+    "type": "mercator",
+    "center": [153.025, -27.47],
+    "scale": 105000 },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "materialSelection",
+          "select": {
+            "type": "point",
+            "fields": ["Main Material"]
+          },
+          "bind": "legend"
+        }
+      ],
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      
+      "transform": [
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ece7df",
+        "stroke": "#a89f93",
+        "strokeWidth": 0.7
+      }
+    },
+    {
+    "data": {
+      "url": "../Data/brisbane-suburbs.geojson",
+      "format": {"type": "json", "property": "features"}
+    },
+    "mark": {
+      "type": "geoshape",
+      "fill": "#ece7df",
+      "stroke": "#a89f93",
+      "strokeWidth": 0.7
+    }
+    },
+    {
+      "data": {
+        "url": "../Data/public-art-brisbane-clean.csv"
+      },
+      "transform": [
+        {
+          "filter": "isValid(datum.Longitude) && isValid(datum.Latitude)"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.55
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "value": 70
+        },
+        "color": {
+          "field": "Main Material",
+          "type": "nominal",
+          "title": "Art Medium",
+          "scale": {
+            "scheme": "tableau20"
+          },
+          "legend": {
+            "orient": "right",
+            "symbolSize": 95
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "materialSelection",
+            "value": 0.9
+          },
+          "value": 0.13
+        },
+        "tooltip": [
+          { "field": "Title", "type": "nominal", "title": "Artwork" },
+          { "field": "Artist", "type": "nominal", "title": "Artist" },
+          { "field": "Suburb", "type": "nominal", "title": "Suburb" },
+          { "field": "Installed", "type": "nominal", "title": "Installed" },
+          { "field": "Main Material", "type": "nominal", "title": "Main Material" },
+          { "field": "Description", "type": "nominal", "title": "Description" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "#fffdf9",
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "labelFont": "Arial",
+      "labelFontSize": 11,
+      "titleFont": "Arial",
+      "titleFontSize": 12
+    }
+  }
+}
