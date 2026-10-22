@@ -9,16 +9,6 @@
     "scale": 105000 },
   "layer": [
     {
-      "params": [
-        {
-          "name": "materialSelection",
-          "select": {
-            "type": "point",
-            "fields": ["Main Material"]
-          },
-          "bind": "legend"
-        }
-      ],
       "data": {
         "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
         "format": {
@@ -49,12 +39,26 @@
     }
     },
     {
+      "params": [
+        {
+          "name": "materialSelection",
+          "select": {
+            "type": "point",
+            "fields": ["material_group"]
+          },
+          "bind": "legend"
+        }
+      ],
       "data": {
         "url": "../Data/public-art-brisbane-clean.csv"
       },
       "transform": [
         {
           "filter": "isValid(datum.Longitude) && isValid(datum.Latitude)"
+        },
+        {
+          "calculate": "indexof(lower(datum['Main Material'] || ''), 'sandstone') >= 0 || indexof(lower(datum['Main Material'] || ''), 'granite') >= 0 || indexof(lower(datum['Main Material'] || ''), 'marble') >= 0 || indexof(lower(datum['Main Material'] || ''), 'stone') >= 0 ? 'Stone' : indexof(lower(datum['Main Material'] || ''), 'steel') >= 0 || indexof(lower(datum['Main Material'] || ''), 'metal') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminium') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminum') >= 0 || indexof(lower(datum['Main Material'] || ''), 'copper') >= 0 || indexof(lower(datum['Main Material'] || ''), 'brass') >= 0 ? 'Metal' : indexof(lower(datum['Main Material'] || ''), 'concrete') >= 0 || indexof(lower(datum['Main Material'] || ''), 'cement') >= 0 ? 'Concrete' : indexof(lower(datum['Main Material'] || ''), 'wood') >= 0 || indexof(lower(datum['Main Material'] || ''), 'timber') >= 0 ? 'Wood' : indexof(lower(datum['Main Material'] || ''), 'ceramic') >= 0 ? 'Ceramic' : indexof(lower(datum['Main Material'] || ''), 'fibreglass') >= 0 || indexof(lower(datum['Main Material'] || ''), 'epoxy resin') >= 0 ? 'Synthetic / resin' : indexof(lower(datum['Main Material'] || ''), 'paint') >= 0 || indexof(lower(datum['Main Material'] || ''), 'neon') >= 0 ? 'Paint / light' : 'Other / unknown'",
+          "as": "material_group"
         }
       ],
       "mark": {
@@ -75,14 +79,34 @@
           "value": 70
         },
         "color": {
-          "field": "Main Material",
+          "field": "material_group",
           "type": "nominal",
-          "title": "Art Medium",
+          "title": "Material group",
           "scale": {
-            "scheme": "tableau20"
+            "domain": [
+              "Stone",
+              "Metal",
+              "Concrete",
+              "Wood",
+              "Ceramic",
+              "Synthetic / resin",
+              "Paint / light",
+              "Other / unknown"
+            ],
+            "range": [
+              "#C9A66B",
+              "#65737E",
+              "#9A9A9A",
+              "#8B5A2B",
+              "#6CA6A5",
+              "#8A6FA8",
+              "#D05A7B",
+              "#B8B1A8"
+            ]
           },
           "legend": {
-            "orient": "right",
+            "orient": "bottom",
+            "columns": 4,
             "symbolSize": 95
           }
         },
