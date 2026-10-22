@@ -1,0 +1,143 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A proportional-symbol map of mappable galleries by Australian state and territory.",
+  "width": 720,
+  "height": 580,
+  "projection": {
+    "type": "mercator",
+    "center": [134, -27],
+    "scale": 890
+  },
+  "layer": [
+     {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ece7df",
+        "stroke": "#9c9387",
+        "strokeWidth": 0.8
+      }
+    },
+    {
+      "data": {
+        "url": "../Data/processed/galleries_geocoded.csv"
+      },
+      "transform": [
+        {
+          "filter": "isValid(datum.longitude) && isValid(datum.latitude) && isValid(datum.State) && datum.State !== ''"
+        },
+        {
+          "aggregate": [
+            { "op": "count", "as": "gallery_count" }
+          ],
+          "groupby": ["State"]
+        },
+        {
+          "lookup": "State",
+          "from": {
+            "data": {
+              "values": [
+                { "State": "ACT", "state_name": "Australian Capital Territory", "longitude": 149.1300, "latitude": -35.2809 },
+                { "State": "NSW", "state_name": "New South Wales", "longitude": 151.2093, "latitude": -33.8688 },
+                { "State": "NT", "state_name": "Northern Territory", "longitude": 130.8456, "latitude": -12.4634 },
+                { "State": "QLD", "state_name": "Queensland", "longitude": 153.0251, "latitude": -27.4698 },
+                { "State": "SA", "state_name": "South Australia", "longitude": 138.6007, "latitude": -34.9285 },
+                { "State": "TAS", "state_name": "Tasmania", "longitude": 147.3272, "latitude": -42.8821 },
+                { "State": "VIC", "state_name": "Victoria", "longitude": 144.9631, "latitude": -37.8136 },
+                { "State": "WA", "state_name": "Western Australia", "longitude": 115.8575, "latitude": -31.9505 }
+              ]
+            },
+            "key": "State",
+            "fields": ["state_name", "longitude", "latitude"]
+          }
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "color": "#9e3d2e",
+        "opacity": 0.76,
+        "stroke": "#fffdf9",
+        "strokeWidth": 1.2
+      },
+      "encoding": {
+        "longitude": { "field": "longitude", "type": "quantitative" },
+        "latitude": { "field": "latitude", "type": "quantitative" },
+        "size": {
+          "field": "gallery_count",
+          "type": "quantitative",
+          "title": "Mappable galleries",
+          "scale": { "range": [250, 4000] },
+          "legend": { "orient": "right" }
+        },
+        "tooltip": [
+          { "field": "state_name", "type": "nominal", "title": "State or territory" },
+          { "field": "gallery_count", "type": "quantitative", "title": "Mappable galleries", "format": ",d" }
+        ]
+      }
+    },
+    {
+  "data": {
+    "values": [
+      {"city": "Sydney",     "lon": 151.2093, "lat": -33.8688},
+      {"city": "Melbourne",  "lon": 144.9631, "lat": -37.8136},
+      {"city": "Brisbane",   "lon": 153.0251, "lat": -27.4698},
+      {"city": "Perth",      "lon": 115.8605, "lat": -31.9505},
+      {"city": "Adelaide",   "lon": 138.6007, "lat": -34.9285},
+      {"city": "Hobart",     "lon": 147.3272, "lat": -42.8821},
+      {"city": "Darwin",     "lon": 130.8456, "lat": -12.4634},
+      {"city": "Canberra",   "lon": 149.1300, "lat": -35.2809}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "shape": "diamond",
+        "size": 45,
+        "filled": true,
+        "color": "#2b2b2b"
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 7,
+        "dy": -2,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#000000",
+        "stroke": "#2b2b2b",
+        "strokeWidth": 1.5,
+        "paintOrder": "stroke"
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "city", "type": "nominal"}
+      }
+    }
+  ]
+  }
+  ],
+  "config": {
+    "background": "#fffdf9",
+    "view": { "stroke": null },
+    "legend": {
+      "labelFont": "Arial",
+      "labelFontSize": 11,
+      "titleFont": "Arial",
+      "titleFontSize": 12
+    }
+  }
+}

@@ -10,12 +10,24 @@
     <main>
       <header class="hero">
         <p class="eyebrow">Australian public art collections</p>
-        <h1>Art in Brisbane’s public spaces</h1>
-        <p class="intro">This first map locates artworks in Brisbane City Council’s collection. Select a material in the legend to focus on that part of the collection.</p>
+        <h1>How art lives in Australian public collections</h1>
+        <p class="intro">Public galleries form a nationwide network. The following maps examine this broader context before turning to artworks in Brisbane’s public spaces.</p>
       </header>
 
+      <section aria-labelledby="gallery-map-heading">
+        <h2 id="gallery-map-heading">A national network of public galleries</h2>
+        <p>Each dot marks a gallery in the available dataset. Galleries are concentrated along Australia’s populated east and south-east coasts, setting the national context for the city collections explored below.</p>
+        <div id="gallery-map" class="chart" aria-label="Map of galleries across Australia"></div>
+      </section>
+
+      <section aria-labelledby="state-map-heading">
+        <h2 id="state-map-heading">Gallery coverage varies by state</h2>
+        <p>Circle size shows the number of galleries with usable locations in each state. The circles sit at state and territory capitals so the counts can be compared without overlapping individual gallery points.</p>
+        <div id="state-map" class="chart" aria-label="Proportional-symbol map of gallery counts by Australian state"></div>
+      </section>
+
       <section aria-labelledby="brisbane-map-heading">
-        <h2 id="brisbane-map-heading">Brisbane public artworks</h2>
+        <h2 id="brisbane-map-heading">Art in Brisbane’s public spaces</h2>
         <div id="brisbane-map" class="chart" aria-label="Map of public artworks in Brisbane"></div>
       </section>
     </main>

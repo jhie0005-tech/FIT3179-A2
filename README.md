@@ -1,6 +1,6 @@
 # Australian Public Art Collections
 
-This repository contains an introductory Vega-Lite map for the FIT3179 assignment. The map uses the cleaned Brisbane public-art collection at `Data/public-art-brisbane-clean.csv`.
+This repository contains introductory Vega-Lite maps for the FIT3179 assignment. They use the cleaned gallery data at `Data/processed/galleries_clean.csv` and `Data/processed/galleries_geocoded.csv`, plus the Brisbane public-art collection at `Data/public-art-brisbane-clean.csv`.
 
 ## Structure
 
@@ -18,6 +18,10 @@ index.html            web page entry point
 
 Serve the project through a local web server, then open `index.html` in the browser. For example, Visual Studio Code's Live Server extension works well. Opening the file directly may prevent the browser from loading the CSV and JSON files.
 
-## First map
+## Maps
 
-`maps/map05_brisbane_point_map.json` is a layered Vega-Lite map. It draws Australia as a light reference layer, then plots each Brisbane artwork using its longitude and latitude. Colour shows the recorded material and tooltips reveal the artwork details.
+`maps/map01_gallery_locator.json` draws Australia as a light reference layer, then plots each gallery using its longitude and latitude. Tooltips reveal the gallery name and address.
+
+`maps/map02_galleries_by_state.json` aggregates galleries with valid coordinates by state and displays the totals as proportional circles at state and territory capitals.
+
+`maps/map05_brisbane_point_map.json` plots each Brisbane artwork using its longitude and latitude. Colour shows the recorded material and tooltips reveal the artwork details.
