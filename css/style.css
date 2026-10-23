@@ -22,4 +22,5 @@ main { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
 h1 { margin: 0.25rem 0 0.75rem; font-family: Georgia, serif; font-size: clamp(2.2rem, 6vw, 4.4rem); line-height: 1.04; }
 h2 { font-family: Georgia, serif; font-size: 1.75rem; }
 .intro { color: var(--muted); font-size: 1.1rem; }
+section { margin-top: 3rem; }
 .chart { overflow-x: auto; background: #fffdf9; border: 1px solid #ded8cf; padding: 1rem; }

@@ -25,3 +25,5 @@ Serve the project through a local web server, then open `index.html` in the brow
 `maps/map02_galleries_by_state.json` aggregates galleries with valid coordinates by state and displays the totals as proportional circles at state and territory capitals.
 
 `maps/map05_brisbane_point_map.json` plots each Brisbane artwork using its longitude and latitude. Colour shows the recorded material and tooltips reveal the artwork details.
+
+`maps/map06_melbourne_point_map.json` plots each Melbourne artwork using its geographic coordinates. The supplied CSV labels its coordinate columns in reverse, so the specification deliberately reads `latitude` as longitude and `longitude` as latitude. Colour shows the source classification and tooltips reveal the artwork details.

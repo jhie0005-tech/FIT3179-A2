@@ -1,0 +1,92 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Public artworks in Melbourne, coloured by the source classification.",
+  "width": 720,
+  "height": 540,
+  "projection": {
+    "type": "mercator",
+    "center": [144.9631, -37.8136],
+    "scale": 112000
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "transform": [
+        { "filter": "datum.id === 36" }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ece7df",
+        "stroke": "#a89f93",
+        "strokeWidth": 0.7
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "classificationSelection",
+          "select": {
+            "type": "point",
+            "fields": ["classification"]
+          },
+          "bind": "legend"
+        }
+      ],
+      "data": {
+        "url": "../Data/processed/melbourne_artworks_clean.csv"
+      },
+      "transform": [
+        { "calculate": "toNumber(datum.latitude)", "as": "map_longitude" },
+        { "calculate": "toNumber(datum.longitude)", "as": "map_latitude" },
+        {
+          "filter": "isValid(datum.map_longitude) && isValid(datum.map_latitude)"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.55
+      },
+      "encoding": {
+        "longitude": { "field": "map_longitude", "type": "quantitative" },
+        "latitude": { "field": "map_latitude", "type": "quantitative" },
+        "size": { "value": 70 },
+        "color": {
+          "field": "classification",
+          "type": "nominal",
+          "title": "Classification",
+          "scale": { "scheme": "tableau20" },
+          "legend": { "orient": "right", "symbolSize": 95 }
+        },
+        "opacity": {
+          "condition": { "param": "classificationSelection", "value": 0.9 },
+          "value": 0.13
+        },
+        "tooltip": [
+          { "field": "title", "type": "nominal", "title": "Artwork" },
+          { "field": "artist", "type": "nominal", "title": "Artist" },
+          { "field": "location", "type": "nominal", "title": "Location" },
+          { "field": "installed_year", "type": "nominal", "title": "Installed" },
+          { "field": "classification", "type": "nominal", "title": "Classification" },
+          { "field": "description", "type": "nominal", "title": "Description" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "#fffdf9",
+    "view": { "stroke": null },
+    "legend": {
+      "labelFont": "Arial",
+      "labelFontSize": 11,
+      "titleFont": "Arial",
+      "titleFontSize": 12
+    }
+  }
+}
