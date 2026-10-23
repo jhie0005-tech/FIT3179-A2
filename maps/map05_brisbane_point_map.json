@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Public artworks in Brisbane City Council's collection, coloured by recorded material.",
+  "description": "Brisbane City Council public artworks, with records at identical coordinates combined into proportional circles.",
   "width": 720,
   "height": 540,
   "projection": {
@@ -59,6 +59,36 @@
         {
           "calculate": "indexof(lower(datum['Main Material'] || ''), 'sandstone') >= 0 || indexof(lower(datum['Main Material'] || ''), 'granite') >= 0 || indexof(lower(datum['Main Material'] || ''), 'marble') >= 0 || indexof(lower(datum['Main Material'] || ''), 'stone') >= 0 ? 'Stone' : indexof(lower(datum['Main Material'] || ''), 'steel') >= 0 || indexof(lower(datum['Main Material'] || ''), 'metal') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminium') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminum') >= 0 || indexof(lower(datum['Main Material'] || ''), 'copper') >= 0 || indexof(lower(datum['Main Material'] || ''), 'brass') >= 0 ? 'Metal' : indexof(lower(datum['Main Material'] || ''), 'concrete') >= 0 || indexof(lower(datum['Main Material'] || ''), 'cement') >= 0 ? 'Concrete' : indexof(lower(datum['Main Material'] || ''), 'wood') >= 0 || indexof(lower(datum['Main Material'] || ''), 'timber') >= 0 ? 'Wood' : indexof(lower(datum['Main Material'] || ''), 'ceramic') >= 0 ? 'Ceramic' : indexof(lower(datum['Main Material'] || ''), 'fibreglass') >= 0 || indexof(lower(datum['Main Material'] || ''), 'epoxy resin') >= 0 ? 'Synthetic / resin' : indexof(lower(datum['Main Material'] || ''), 'paint') >= 0 || indexof(lower(datum['Main Material'] || ''), 'neon') >= 0 ? 'Paint / light' : 'Other / unknown'",
           "as": "material_group"
+        },
+        {
+          "joinaggregate": [
+           { "op": "count", "as": "location_count" }
+          ],
+          "groupby": [
+            "Longitude",
+            "Latitude"
+          ]
+        },
+        {
+          "window": [
+            { "op": "row_number", "as": "location_rank" }
+          ],
+          "groupby": [
+            "Longitude",
+            "Latitude"
+          
+          ],
+          "sort": [
+            { "field": "Index", "order": "ascending" }
+          ]
+        },
+        {
+          "calculate": "datum.location_count > 1 ? toNumber(datum.Longitude) + 0.002 * cos(6.28318530718 * (datum.location_rank - 1) / datum.location_count) : toNumber(datum.Longitude)",
+          "as": "display_longitude"
+        },
+        {
+          "calculate": "datum.location_count > 1 ? toNumber(datum.Latitude) + 0.002 * sin(6.28318530718 * (datum.location_rank - 1) / datum.location_count) : toNumber(datum.Latitude)",
+          "as": "display_latitude"
         }
       ],
       "mark": {
@@ -68,15 +98,15 @@
       },
       "encoding": {
         "longitude": {
-          "field": "Longitude",
+          "field": "display_longitude",
           "type": "quantitative"
         },
         "latitude": {
-          "field": "Latitude",
+          "field": "display_latitude",
           "type": "quantitative"
         },
         "size": {
-          "value": 70
+          "value": 55
         },
         "color": {
           "field": "material_group",
@@ -105,8 +135,7 @@
             ]
           },
           "legend": {
-            "orient": "bottom",
-            "columns": 4,
+            "orient": "right",
             "symbolSize": 95
           }
         },
@@ -122,7 +151,8 @@
           { "field": "Artist", "type": "nominal", "title": "Artist" },
           { "field": "Suburb", "type": "nominal", "title": "Suburb" },
           { "field": "Installed", "type": "nominal", "title": "Installed" },
-          { "field": "Main Material", "type": "nominal", "title": "Main Material" },
+          { "field": "Main Material", "type": "nominal", "title": "Recorded material" },
+          { "field": "location_count", "type": "quantitative", "title": "Artworks at this recorded location" },
           { "field": "Description", "type": "nominal", "title": "Description" }
         ]
       }
