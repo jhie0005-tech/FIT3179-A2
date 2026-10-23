@@ -90,7 +90,7 @@
   },
     {
       "data": {
-        "url": "Data\\processed\\galleries_clean.csv"
+        "url": "../Data/processed/galleries_geocoded.csv"
       },
       "transform": [
         {
