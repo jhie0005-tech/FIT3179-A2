@@ -5,20 +5,19 @@
   "height": 540,
   "projection": {
     "type": "mercator",
-    "center": [144.9631, -37.8136],
-    "scale": 112000
+    "center": [144.9431, -37.8096],
+    "scale": 432000
   },
   "layer": [
     {
       "data": {
-        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
         "format": {
           "type": "topojson",
           "feature": "countries"
         }
       },
       "transform": [
-        { "filter": "datum.id === 36" }
       ],
       "mark": {
         "type": "geoshape",
@@ -26,6 +25,18 @@
         "stroke": "#a89f93",
         "strokeWidth": 0.7
       }
+    },
+    {
+    "data": {
+      "url": "../Data/melbourne-property-boundaries.geojson",
+      "format": {"type": "json", "property": "features"}
+    },
+    "mark": {
+      "type": "geoshape",
+      "fill": null,
+      "stroke": "#b8aea0",
+      "strokeWidth": 0.3
+    }
     },
     {
       "params": [
