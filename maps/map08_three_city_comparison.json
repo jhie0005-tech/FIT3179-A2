@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Three-city small-multiple point map of public art, coloured by a shared category crosswalk. Panels are the same pixel size; each is framed to its own city (see subtitles for the ground width) with a scale bar.",
+  "description": "Three-city small-multiple point map of public art, coloured by a shared category crosswalk. Panels are the same pixel size, with explicit projection translate; each is framed to its own city (see subtitles for the ground width) with a scale bar.",
   "data": {
     "url": "Data/processed/public_art_comparison.csv",
     "format": {
@@ -28,9 +28,28 @@
           153.0577,
           -27.4547
         ],
-        "scale": 56500
+        "scale": 56500,
+        "translate": [
+          130.0,
+          170.0
+        ]
       },
       "layer": [
+        {
+          "data": {
+            "url": "Data/brisbane-suburbs.geojson",
+            "format": {
+              "type": "json",
+              "property": "features"
+            }
+          },
+          "mark": {
+            "type": "geoshape",
+            "fill": "#fbfaf6",
+            "stroke": "#d6d0c2",
+            "strokeWidth": 0.6
+          }
+        },
         {
           "transform": [
             {
@@ -205,13 +224,26 @@
       "height": 340,
       "projection": {
         "type": "mercator",
-        "center": [
-          144.9491,
-          -37.8061
-        ],
-        "scale": 161000
+        "center": [144.9431, -37.8096],
+        "scale": 432000,
+        "translate": [
+          130.0,
+          170.0
+        ]
       },
       "layer": [
+        {
+          "data": {
+            "url": "../Data/melbourne-property-boundaries.geojson",
+            "format": {"type": "json", "property": "features"}
+            },
+            "mark": {
+            "type": "geoshape",
+            "fill": null,
+            "stroke": "#b8aea0",
+            "strokeWidth": 0.3
+    }
+        },
         {
           "transform": [
             {
@@ -390,9 +422,25 @@
           149.0356,
           -35.3652
         ],
-        "scale": 33250
+        "scale": 33250,
+        "translate": [
+          130.0,
+          170.0
+        ]
       },
       "layer": [
+        {
+        "data": {
+        "url": "../Data/processed/Canberra roads.geojson",
+        "format": {"type": "json", "property": "features"}
+        },
+        "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#b8aea0",
+        "strokeWidth": 0.5
+        }
+            },
         {
           "transform": [
             {
