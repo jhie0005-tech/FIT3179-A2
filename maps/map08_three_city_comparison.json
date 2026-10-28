@@ -1,0 +1,583 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Three-city small-multiple point map of public art, coloured by a shared category crosswalk. Panels are the same pixel size; each is framed to its own city (see subtitles for the ground width) with a scale bar.",
+  "data": {
+    "url": "Data/processed/public_art_comparison.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "longitude": "number",
+        "latitude": "number",
+        "installed_year": "number"
+      }
+    }
+  },
+  "hconcat": [
+    {
+      "title": {
+        "text": "Brisbane",
+        "subtitle": "198 works \u00b7 map window about 26 \u00d7 34 km",
+        "anchor": "start",
+        "subtitleColor": "#666"
+      },
+      "width": 260,
+      "height": 340,
+      "projection": {
+        "type": "mercator",
+        "center": [
+          153.0577,
+          -27.4547
+        ],
+        "scale": 56500
+      },
+      "layer": [
+        {
+          "transform": [
+            {
+              "filter": "datum.city === 'Brisbane'"
+            },
+            {
+              "calculate": "datum.shared_category === 'Other / unclassified' ? 0 : 1",
+              "as": "draw_order"
+            },
+            {
+              "calculate": "datum.source_category ? datum.source_category : 'Not recorded in source'",
+              "as": "src"
+            },
+            {
+              "calculate": "datum.material ? datum.material : 'Not recorded'",
+              "as": "mat"
+            },
+            {
+              "calculate": "isValid(datum.installed_year) ? format(datum.installed_year, 'd') : 'Not recorded'",
+              "as": "yr"
+            }
+          ],
+          "mark": {
+            "type": "circle",
+            "size": 22,
+            "opacity": 0.85,
+            "stroke": "#ffffff",
+            "strokeWidth": 0.3
+          },
+          "encoding": {
+            "longitude": {
+              "field": "longitude",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "latitude",
+              "type": "quantitative"
+            },
+            "order": {
+              "field": "draw_order",
+              "type": "quantitative"
+            },
+            "color": {
+              "field": "shared_category",
+              "type": "nominal",
+              "title": "Shared category",
+              "scale": {
+                "domain": [
+                  "Sculpture / object",
+                  "Mural / wall art",
+                  "Monument / memorial",
+                  "Fountain / water feature",
+                  "Functional public art",
+                  "Other / unclassified"
+                ],
+                "range": [
+                  "#2f6fa5",
+                  "#e07a1f",
+                  "#7b3f98",
+                  "#2a9d8f",
+                  "#c9a227",
+                  "#b9b9b9"
+                ]
+              },
+              "legend": {
+                "orient": "bottom",
+                "columns": 3,
+                "symbolType": "circle",
+                "labelLimit": 220,
+                "titleAnchor": "start"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "shared_category",
+                "type": "nominal",
+                "title": "Shared category"
+              },
+              {
+                "field": "src",
+                "type": "nominal",
+                "title": "Original source category"
+              },
+              {
+                "field": "mat",
+                "type": "nominal",
+                "title": "Material"
+              },
+              {
+                "field": "yr",
+                "type": "nominal",
+                "title": "Installed"
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "lon1": 152.9362,
+                "lon2": 152.9868,
+                "lat": -27.5968
+              }
+            ]
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#333",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon1",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "longitude2": {
+              "field": "lon2"
+            },
+            "latitude2": {
+              "field": "lat"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "lon": 152.9615,
+                "lat": -27.5968,
+                "label": "5 km"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "dy": -7,
+            "fontSize": 11,
+            "color": "#333",
+            "stroke": "#f4f1ea",
+            "strokeWidth": 3,
+            "strokeJoin": "round"
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "label"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "Melbourne",
+        "subtitle": "201 works \u00b7 map window about 8 \u00d7 11 km",
+        "anchor": "start",
+        "subtitleColor": "#666"
+      },
+      "width": 260,
+      "height": 340,
+      "projection": {
+        "type": "mercator",
+        "center": [
+          144.9491,
+          -37.8061
+        ],
+        "scale": 161000
+      },
+      "layer": [
+        {
+          "transform": [
+            {
+              "filter": "datum.city === 'Melbourne'"
+            },
+            {
+              "calculate": "datum.shared_category === 'Other / unclassified' ? 0 : 1",
+              "as": "draw_order"
+            },
+            {
+              "calculate": "datum.source_category ? datum.source_category : 'Not recorded in source'",
+              "as": "src"
+            },
+            {
+              "calculate": "datum.material ? datum.material : 'Not recorded'",
+              "as": "mat"
+            },
+            {
+              "calculate": "isValid(datum.installed_year) ? format(datum.installed_year, 'd') : 'Not recorded'",
+              "as": "yr"
+            }
+          ],
+          "mark": {
+            "type": "circle",
+            "size": 22,
+            "opacity": 0.85,
+            "stroke": "#ffffff",
+            "strokeWidth": 0.3
+          },
+          "encoding": {
+            "longitude": {
+              "field": "longitude",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "latitude",
+              "type": "quantitative"
+            },
+            "order": {
+              "field": "draw_order",
+              "type": "quantitative"
+            },
+            "color": {
+              "field": "shared_category",
+              "type": "nominal",
+              "title": "Shared category",
+              "scale": {
+                "domain": [
+                  "Sculpture / object",
+                  "Mural / wall art",
+                  "Monument / memorial",
+                  "Fountain / water feature",
+                  "Functional public art",
+                  "Other / unclassified"
+                ],
+                "range": [
+                  "#2f6fa5",
+                  "#e07a1f",
+                  "#7b3f98",
+                  "#2a9d8f",
+                  "#c9a227",
+                  "#b9b9b9"
+                ]
+              },
+              "legend": {
+                "orient": "bottom",
+                "columns": 3,
+                "symbolType": "circle",
+                "labelLimit": 220,
+                "titleAnchor": "start"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "shared_category",
+                "type": "nominal",
+                "title": "Shared category"
+              },
+              {
+                "field": "src",
+                "type": "nominal",
+                "title": "Original source category"
+              },
+              {
+                "field": "mat",
+                "type": "nominal",
+                "title": "Material"
+              },
+              {
+                "field": "yr",
+                "type": "nominal",
+                "title": "Installed"
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "lon1": 144.9065,
+                "lon2": 144.9292,
+                "lat": -37.8505
+              }
+            ]
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#333",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon1",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "longitude2": {
+              "field": "lon2"
+            },
+            "latitude2": {
+              "field": "lat"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "lon": 144.9178,
+                "lat": -37.8505,
+                "label": "2 km"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "dy": -7,
+            "fontSize": 11,
+            "color": "#333",
+            "stroke": "#f4f1ea",
+            "strokeWidth": 3,
+            "strokeJoin": "round"
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "label"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "Canberra",
+        "subtitle": "562 works \u00b7 map window about 41 \u00d7 53 km",
+        "anchor": "start",
+        "subtitleColor": "#666"
+      },
+      "width": 260,
+      "height": 340,
+      "projection": {
+        "type": "mercator",
+        "center": [
+          149.0356,
+          -35.3652
+        ],
+        "scale": 33250
+      },
+      "layer": [
+        {
+          "transform": [
+            {
+              "filter": "datum.city === 'Canberra'"
+            },
+            {
+              "calculate": "datum.shared_category === 'Other / unclassified' ? 0 : 1",
+              "as": "draw_order"
+            },
+            {
+              "calculate": "datum.source_category ? datum.source_category : 'Not recorded in source'",
+              "as": "src"
+            },
+            {
+              "calculate": "datum.material ? datum.material : 'Not recorded'",
+              "as": "mat"
+            },
+            {
+              "calculate": "isValid(datum.installed_year) ? format(datum.installed_year, 'd') : 'Not recorded'",
+              "as": "yr"
+            }
+          ],
+          "mark": {
+            "type": "circle",
+            "size": 22,
+            "opacity": 0.85,
+            "stroke": "#ffffff",
+            "strokeWidth": 0.3
+          },
+          "encoding": {
+            "longitude": {
+              "field": "longitude",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "latitude",
+              "type": "quantitative"
+            },
+            "order": {
+              "field": "draw_order",
+              "type": "quantitative"
+            },
+            "color": {
+              "field": "shared_category",
+              "type": "nominal",
+              "title": "Shared category",
+              "scale": {
+                "domain": [
+                  "Sculpture / object",
+                  "Mural / wall art",
+                  "Monument / memorial",
+                  "Fountain / water feature",
+                  "Functional public art",
+                  "Other / unclassified"
+                ],
+                "range": [
+                  "#2f6fa5",
+                  "#e07a1f",
+                  "#7b3f98",
+                  "#2a9d8f",
+                  "#c9a227",
+                  "#b9b9b9"
+                ]
+              },
+              "legend": {
+                "orient": "bottom",
+                "columns": 3,
+                "symbolType": "circle",
+                "labelLimit": 220,
+                "titleAnchor": "start"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "shared_category",
+                "type": "nominal",
+                "title": "Shared category"
+              },
+              {
+                "field": "src",
+                "type": "nominal",
+                "title": "Original source category"
+              },
+              {
+                "field": "mat",
+                "type": "nominal",
+                "title": "Material"
+              },
+              {
+                "field": "yr",
+                "type": "nominal",
+                "title": "Installed"
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "lon1": 148.8292,
+                "lon2": 148.8843,
+                "lat": -35.5872
+              }
+            ]
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#333",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon1",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "longitude2": {
+              "field": "lon2"
+            },
+            "latitude2": {
+              "field": "lat"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "lon": 148.8567,
+                "lat": -35.5872,
+                "label": "5 km"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "dy": -7,
+            "fontSize": 11,
+            "color": "#333",
+            "stroke": "#f4f1ea",
+            "strokeWidth": 3,
+            "strokeJoin": "round"
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "label"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    },
+    "legend": {
+      "color": "shared"
+    }
+  },
+  "spacing": 24,
+  "config": {
+    "view": {
+      "stroke": "#d8d2c4",
+      "fill": "#f4f1ea"
+    },
+    "title": {
+      "fontSize": 15,
+      "subtitleFontSize": 11
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

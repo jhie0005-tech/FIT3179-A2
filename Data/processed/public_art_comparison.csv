@@ -1,0 +1,962 @@
+id,city,longitude,latitude,installed_year,decade,shared_category,source_category,material
+BNE-1,Brisbane,153.030496,-27.475936,1867,1860s,Fountain / water feature,,sandstone
+BNE-2,Brisbane,153.030184,-27.465967,1879,1870s,Monument / memorial,,sandstone
+BNE-3,Brisbane,153.032083,-27.460722,1902,1900s,Other / unclassified,,bronze
+BNE-4,Brisbane,153.0318,-27.461301,1929,1920s,Monument / memorial,,bronze
+BNE-5,Brisbane,153.023846,-27.468692,1930,1930s,Other / unclassified,,sandstone
+BNE-6,Brisbane,153.023972,-27.468694,1938,1930s,Monument / memorial,,bronze
+BNE-7,Brisbane,153.023694,-27.468417,1938,1930s,Monument / memorial,,bronze
+BNE-8,Brisbane,153.027139,-27.467,1966,1960s,Other / unclassified,,bronze
+BNE-9,Brisbane,153.015134,-27.466437,1971,1970s,Fountain / water feature,,stainless steel
+BNE-10,Brisbane,153.031222,-27.473917,1988,1980s,Other / unclassified,,steel
+BNE-11,Brisbane,153.0295,-27.474694,1988,1980s,Other / unclassified,,sandstone
+BNE-12,Brisbane,153.024089,-27.455614,1988,1980s,Other / unclassified,,granite
+BNE-13,Brisbane,153.023705,-27.470921,1988,1980s,Other / unclassified,,bronze
+BNE-14,Brisbane,153.024536,-27.465956,1989,1980s,Other / unclassified,,bronze
+BNE-15,Brisbane,153.035034,-27.46517,1989,1980s,Other / unclassified,,concrete
+BNE-16,Brisbane,153.028096,-27.474401,1989,1980s,Other / unclassified,,stainless steel
+BNE-17,Brisbane,153.025982,-27.455783,1989,1980s,Other / unclassified,,stainless steel
+BNE-18,Brisbane,153.034168,-27.478194,1989,1980s,Other / unclassified,,steel
+BNE-19,Brisbane,153.023806,-27.465778,1989,1980s,Other / unclassified,,granite
+BNE-20,Brisbane,153.023778,-27.466083,1990,1990s,Other / unclassified,,steel
+BNE-21,Brisbane,153.023806,-27.468306,1990,1990s,Other / unclassified,,bronze
+BNE-22,Brisbane,153.023944,-27.465722,1990,1990s,Other / unclassified,,steel
+BNE-23,Brisbane,153.023694,-27.465694,1990,1990s,Other / unclassified,,stainless steel
+BNE-24,Brisbane,153.030833,-27.476222,1993,1990s,Other / unclassified,,bronze
+BNE-25,Brisbane,153.030806,-27.475389,1993,1990s,Other / unclassified,,bronze
+BNE-26,Brisbane,153.024639,-27.468528,1993,1990s,Other / unclassified,,bronze
+BNE-27,Brisbane,153.0434998,-27.49796812,1993,1990s,Other / unclassified,,bronze
+BNE-28,Brisbane,153.0344984,-27.47511828,1995,1990s,Other / unclassified,,found metals
+BNE-29,Brisbane,153.026417,-27.467917,1995,1990s,Other / unclassified,,sandstone
+BNE-30,Brisbane,153.029325,-27.482012,1995,1990s,Other / unclassified,,found metals
+BNE-31,Brisbane,153.034475,-27.471225,1995,1990s,Other / unclassified,,steel
+BNE-32,Brisbane,152.9744306,-27.41172903,1995,1990s,Other / unclassified,,bronze
+BNE-33,Brisbane,153.0346344,-27.47534382,1995,1990s,Other / unclassified,,stainless steel
+BNE-34,Brisbane,153.030374,-27.473951,1995,1990s,Functional public art,,bronze
+BNE-35,Brisbane,153.0265,-27.467972,1995,1990s,Other / unclassified,,sandstone
+BNE-36,Brisbane,153.0770576,-27.34052144,1996,1990s,Other / unclassified,,steel
+BNE-37,Brisbane,152.97661,-27.476937,1996,1990s,Other / unclassified,,bronze
+BNE-38,Brisbane,153.047732,-27.369397,1996,1990s,Other / unclassified,,bronze
+BNE-39,Brisbane,153.044944,-27.499194,1996,1990s,Other / unclassified,,stainless steel
+BNE-40,Brisbane,153.031833,-27.464417,1996,1990s,Other / unclassified,,sandstone
+BNE-41,Brisbane,153.082443,-27.32172212,1996,1990s,Other / unclassified,,stainless steel
+BNE-42,Brisbane,153.07025,-27.320806,1996,1990s,Other / unclassified,,bronze
+BNE-43,Brisbane,153.068667,-27.319583,1996,1990s,Other / unclassified,,bronze
+BNE-44,Brisbane,152.974417,-27.410944,1996,1990s,Other / unclassified,,bronze
+BNE-45,Brisbane,153.045333,-27.500028,1996,1990s,Other / unclassified,,bronze
+BNE-46,Brisbane,153.047,-27.369,1996,1990s,Other / unclassified,,found metals
+BNE-47,Brisbane,153.078972,-27.339944,1996,1990s,Other / unclassified,,aluminium
+BNE-48,Brisbane,153.012353,-27.479542,1996,1990s,Other / unclassified,,ceramic
+BNE-49,Brisbane,153.0364867,-27.48581231,1997,1990s,Monument / memorial,,aluminium
+BNE-50,Brisbane,152.9996739,-27.4484533,1997,1990s,Other / unclassified,,wood
+BNE-51,Brisbane,152.993889,-27.523833,1997,1990s,Other / unclassified,,bronze
+BNE-52,Brisbane,153.047,-27.467778,1998,1990s,Other / unclassified,,bronze
+BNE-53,Brisbane,153.025111,-27.472361,1998,1990s,Other / unclassified,,stainless steel
+BNE-54,Brisbane,153.023278,-27.470694,1999,1990s,Other / unclassified,,found metals
+BNE-55,Brisbane,153.026861,-27.471194,1999,1990s,Other / unclassified,,stainless steel
+BNE-56,Brisbane,153.02875,-27.479194,2000,2000s,Other / unclassified,,granite
+BNE-57,Brisbane,153.0305948,-27.4772581,2000,2000s,Other / unclassified,,bronze
+BNE-58,Brisbane,152.9816967,-27.53856303,2000,2000s,Other / unclassified,,found metals
+BNE-59,Brisbane,153.054361,-27.469472,2000,2000s,Other / unclassified,,steel
+BNE-60,Brisbane,153.0859601,-27.32450082,2000,2000s,Other / unclassified,,timber
+BNE-61,Brisbane,153.024889,-27.532722,2000,2000s,Other / unclassified,,stainless steel
+BNE-62,Brisbane,153.054167,-27.468972,2000,2000s,Other / unclassified,,stainless steel
+BNE-63,Brisbane,153.032306,-27.460417,2001,2000s,Other / unclassified,,bronze
+BNE-64,Brisbane,153.0414707,-27.47189904,2001,2000s,Other / unclassified,,copper
+BNE-65,Brisbane,153.079083,-27.538139,2001,2000s,Sculpture / object,,timber
+BNE-66,Brisbane,152.9742187,-27.55290488,2002,2000s,Other / unclassified,,granite
+BNE-67,Brisbane,152.973722,-27.553056,2002,2000s,Other / unclassified,,found metals
+BNE-68,Brisbane,153.0678575,-27.31957412,2002,2000s,Other / unclassified,,bronze
+BNE-69,Brisbane,152.978395,-27.557598,2002,2000s,Other / unclassified,,found metals
+BNE-70,Brisbane,153.060111,-27.402028,2002,2000s,Other / unclassified,,granite
+BNE-71,Brisbane,153.054222,-27.468917,2003,2000s,Other / unclassified,,aluminium
+BNE-72,Brisbane,153.1767756,-27.4417484,2003,2000s,Other / unclassified,,wood
+BNE-73,Brisbane,152.9629056,-27.54358406,2003,2000s,Other / unclassified,,stainless steel
+BNE-74,Brisbane,152.9601584,-27.54180536,2003,2000s,Other / unclassified,,concrete
+BNE-75,Brisbane,153.0361139,-27.47301401,2003,2000s,Other / unclassified,,steel
+BNE-76,Brisbane,153.034611,-27.462389,2003,2000s,Other / unclassified,,steel
+BNE-77,Brisbane,153.012676,-27.477011,2004,2000s,Other / unclassified,,aluminium
+BNE-78,Brisbane,153.013646,-27.476435,2004,2000s,Other / unclassified,,aluminium
+BNE-79,Brisbane,153.012619,-27.477088,2004,2000s,Other / unclassified,,fibreglass
+BNE-80,Brisbane,153.014488,-27.42589,2004,2000s,Other / unclassified,,steel
+BNE-81,Brisbane,153.041823,-27.448129,2004,2000s,Monument / memorial,,aluminium
+BNE-82,Brisbane,153.012676,-27.477011,2004,2000s,Other / unclassified,,aluminium
+BNE-83,Brisbane,153.02675,-27.468222,2005,2000s,Other / unclassified,,stainless steel
+BNE-84,Brisbane,153.0225,-27.467,2006,2000s,Other / unclassified,,bronze
+BNE-85,Brisbane,153.053886,-27.46891066,2006,2000s,Other / unclassified,,marble
+BNE-86,Brisbane,152.976544,-27.476454,2006,2000s,Other / unclassified,,stone
+BNE-87,Brisbane,153.0508174,-27.46239728,2006,2000s,Other / unclassified,,marble
+BNE-88,Brisbane,153.046444,-27.475139,2006,2000s,Other / unclassified,,granite
+BNE-89,Brisbane,153.027806,-27.589861,2006,2000s,Other / unclassified,,found metals
+BNE-90,Brisbane,153.000192,-27.417256,2007,2000s,Other / unclassified,,found metals
+BNE-91,Brisbane,152.976544,-27.476454,2007,2000s,Other / unclassified,,paint
+BNE-92,Brisbane,153.023979,-27.468178,2007,2000s,Monument / memorial,,aluminium
+BNE-93,Brisbane,153.074861,-27.320456,2007,2000s,Other / unclassified,,wood
+BNE-94,Brisbane,152.947917,-27.581306,2007,2000s,Other / unclassified,,found metals
+BNE-95,Brisbane,152.976544,-27.476454,2007,2000s,Other / unclassified,,sandstone
+BNE-96,Brisbane,153.023421,-27.467958,2007,2000s,Other / unclassified,,aluminium
+BNE-97,Brisbane,153.084306,-27.322667,2007,2000s,Other / unclassified,,wood
+BNE-98,Brisbane,152.9767055,-27.47547488,2007,2000s,Other / unclassified,,bronze
+BNE-99,Brisbane,152.976544,-27.476454,2008,2000s,Other / unclassified,,steel
+BNE-100,Brisbane,152.976544,-27.476454,2008,2000s,Other / unclassified,,ceramic
+BNE-101,Brisbane,153.028861,-27.464333,2008,2000s,Other / unclassified,,stainless steel
+BNE-102,Brisbane,152.976544,-27.476454,2008,2000s,Other / unclassified,,sandstone
+BNE-103,Brisbane,153.0345,-27.459667,2009,2000s,Other / unclassified,,cement
+BNE-104,Brisbane,153.034583,-27.459722,2009,2000s,Other / unclassified,,steel
+BNE-105,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,steel
+BNE-106,Brisbane,152.976034,-27.476741,2009,2000s,Functional public art,,concrete
+BNE-107,Brisbane,153.085742,-27.445033,2009,2000s,Other / unclassified,,concrete
+BNE-108,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,ceramic
+BNE-109,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,ceramic
+BNE-110,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,bronze
+BNE-111,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,bronze
+BNE-112,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,bronze
+BNE-113,Brisbane,152.975859,-27.476856,2009,2000s,Other / unclassified,,bronze
+BNE-114,Brisbane,153.034694,-27.493333,2009,2000s,Other / unclassified,,stainless steel
+BNE-115,Brisbane,152.976728,-27.476844,2009,2000s,Other / unclassified,,steel
+BNE-116,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,ceramic
+BNE-117,Brisbane,153.034694,-27.459972,2009,2000s,Other / unclassified,,paint
+BNE-118,Brisbane,152.976609,-27.476989,2009,2000s,Other / unclassified,,bronze
+BNE-119,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,concrete
+BNE-120,Brisbane,152.97601,-27.476736,2009,2000s,Other / unclassified,,concrete
+BNE-121,Brisbane,152.976544,-27.476454,2009,2000s,Other / unclassified,,bronze
+BNE-122,Brisbane,152.975575,-27.477215,2009,2000s,Other / unclassified,,stainless steel
+BNE-123,Brisbane,153.077376,-27.375338,2010,2010s,Other / unclassified,,granite
+BNE-124,Brisbane,153.011326,-27.468775,2010,2010s,Other / unclassified,,paint
+BNE-125,Brisbane,153.046206,-27.448104,2010,2010s,Other / unclassified,,aluminium
+BNE-126,Brisbane,152.974976,-27.476511,2010,2010s,Other / unclassified,,sandstone
+BNE-127,Brisbane,153.022378,-27.467879,2010,2010s,Other / unclassified,,brass
+BNE-128,Brisbane,152.976544,-27.476454,2010,2010s,Other / unclassified,,bronze
+BNE-129,Brisbane,153.013659,-27.470275,2011,2010s,Other / unclassified,,steel
+BNE-130,Brisbane,153.063856,-27.469606,2012,2010s,Other / unclassified,,found metals
+BNE-131,Brisbane,153.035085,-27.476488,2012,2010s,Other / unclassified,,stainless steel
+BNE-132,Brisbane,153.050338,-27.50736,2012,2010s,Other / unclassified,,bronze
+BNE-133,Brisbane,153.0876869,-27.44458313,2013,2010s,Other / unclassified,,fibreglass
+BNE-134,Brisbane,152.976544,-27.476454,2013,2010s,Other / unclassified,,bronze
+BNE-135,Brisbane,153.04624,-27.501293,2013,2010s,Other / unclassified,,steel
+BNE-136,Brisbane,153.0340751,-27.46908035,2013,2010s,Other / unclassified,,aluminium
+BNE-137,Brisbane,153.044727,-27.498788,2013,2010s,Other / unclassified,,steel
+BNE-138,Brisbane,153.034412,-27.457988,2014,2010s,Other / unclassified,,aluminium
+BNE-139,Brisbane,153.000419,-27.469432,2014,2010s,Other / unclassified,,bronze
+BNE-140,Brisbane,153.030208,-27.47427848,2014,2010s,Other / unclassified,,stainless steel
+BNE-141,Brisbane,153.005891,-27.502263,2014,2010s,Other / unclassified,,aluminium
+BNE-142,Brisbane,153.034412,-27.457988,2014,2010s,Other / unclassified,,concrete
+BNE-143,Brisbane,153.031015,-27.461674,2015,2010s,Other / unclassified,,aluminum
+BNE-144,Brisbane,153.089034,-27.468179,2015,2010s,Other / unclassified,,aluminium
+BNE-145,Brisbane,152.938634,-27.507655,2015,2010s,Other / unclassified,,stainless steel
+BNE-146,Brisbane,153.0198803,-27.4671229,2015,2010s,Other / unclassified,,Mild steel
+BNE-147,Brisbane,153.173479,-27.44355,2015,2010s,Other / unclassified,,stainless steel
+BNE-148,Brisbane,153.029233,-27.478687,2015,2010s,Other / unclassified,,epoxy resin
+BNE-149,Brisbane,152.976475,-27.522735,2016,2010s,Other / unclassified,,bronze
+BNE-150,Brisbane,153.0216795,-27.4670553,2016,2010s,Other / unclassified,,stainless steel
+BNE-151,Brisbane,152.957971,-27.54063,2016,2010s,Other / unclassified,,stainless steel
+BNE-152,Brisbane,153.001136,-27.425152,2016,2010s,Other / unclassified,,aluminium
+BNE-153,Brisbane,152.992417,-27.4595,2016,2010s,Other / unclassified,,concrete
+BNE-154,Brisbane,153.001136,-27.425152,2016,2010s,Other / unclassified,,aluminium
+BNE-155,Brisbane,152.976081,-27.521863,2016,2010s,Other / unclassified,,copper
+BNE-156,Brisbane,153.024829,-27.46855,2017,2010s,Other / unclassified,,aluminium
+BNE-157,Brisbane,153.0243,-27.468068,2017,2010s,Other / unclassified,,aluminium
+BNE-158,Brisbane,153.02937,-27.469233,2017,2010s,Other / unclassified,,bronze
+BNE-159,Brisbane,153.034095,-27.466105,2017,2010s,Other / unclassified,,found metals
+BNE-160,Brisbane,153.017174,-27.474014,2017,2010s,Other / unclassified,,aluminum
+BNE-161,Brisbane,152.978155,-27.475508,2018,2010s,Other / unclassified,,bronze
+BNE-162,Brisbane,152.977315,-27.476512,2018,2010s,Other / unclassified,,bronze
+BNE-163,Brisbane,152.9800243,-27.47635345,2018,2010s,Other / unclassified,,brass
+BNE-164,Brisbane,153.01454,-27.476174,2018,2010s,Other / unclassified,,bronze
+BNE-165,Brisbane,153.023653,-27.469377,2018,2010s,Other / unclassified,,bronze
+BNE-166,Brisbane,153.032412,-27.451167,2019,2010s,Other / unclassified,,bronze
+BNE-167,Brisbane,153.034148,-27.458123,2019,2010s,Other / unclassified,,stainless steel
+BNE-168,Brisbane,153.079358,-27.538024,2019,2010s,Other / unclassified,,neon
+BNE-169,Brisbane,153.033056,-27.480944,2019,2010s,Other / unclassified,,bronze
+BNE-170,Brisbane,152.9777813,-27.47720113,2019,2010s,Other / unclassified,,aluminum
+BNE-171,Brisbane,153.059059,-27.494297,2020,2020s,Other / unclassified,,aluminum
+BNE-172,Brisbane,152.9777972,-27.47633052,2020,2020s,Other / unclassified,,bronze
+BNE-173,Brisbane,153.048426,-27.440712,2020,2020s,Other / unclassified,,powder coated aluminium
+BNE-174,Brisbane,153.049672,-27.440248,2020,2020s,Other / unclassified,,concrete
+BNE-175,Brisbane,153.04233,-27.50071,2021,2020s,Other / unclassified,,concrete
+BNE-176,Brisbane,153.062167,-27.45169,2022,2020s,Other / unclassified,,aluminum
+BNE-177,Brisbane,153.068127,-27.49762,2022,2020s,Other / unclassified,,bronze
+BNE-178,Brisbane,152.977596,-27.475997,2022,2020s,Other / unclassified,,bronze
+BNE-179,Brisbane,152.9774779,-27.44898138,2022,2020s,Other / unclassified,,aluminium
+BNE-180,Brisbane,153.008171,-27.462197,2022,2020s,Other / unclassified,,concrete
+BNE-181,Brisbane,153.007574,-27.462235,2022,2020s,Other / unclassified,,concrete
+BNE-182,Brisbane,153.006058,-27.461664,2022,2020s,Other / unclassified,,concrete
+BNE-183,Brisbane,153.004404,-27.46126,2022,2020s,Other / unclassified,,concrete
+BNE-184,Brisbane,153.003325,-27.460482,2022,2020s,Other / unclassified,,concrete
+BNE-185,Brisbane,153.00238,-27.46051,2022,2020s,Other / unclassified,,concrete
+BNE-186,Brisbane,153.00203,-27.45991,2022,2020s,Other / unclassified,,concrete
+BNE-187,Brisbane,153.00107,-27.45909,2022,2020s,Other / unclassified,,concrete
+BNE-188,Brisbane,152.999452,-27.458631,2022,2020s,Other / unclassified,,concrete
+BNE-189,Brisbane,152.999094,-27.458971,2022,2020s,Other / unclassified,,concrete
+BNE-190,Brisbane,152.99825,-27.459137,2022,2020s,Other / unclassified,,concrete
+BNE-191,Brisbane,152.99769,-27.4591,2022,2020s,Other / unclassified,,concrete
+BNE-192,Brisbane,152.996291,-27.458484,2022,2020s,Other / unclassified,,concrete
+BNE-193,Brisbane,152.994376,-27.458392,2022,2020s,Other / unclassified,,concrete
+BNE-194,Brisbane,152.99436,-27.458669,2022,2020s,Other / unclassified,,concrete
+BNE-195,Brisbane,152.99359,-27.45915,2022,2020s,Other / unclassified,,concrete
+BNE-196,Brisbane,152.9766437,-27.47571969,2023,2020s,Other / unclassified,,bronze
+BNE-197,Brisbane,152.9968593,-27.4660781,2023,2020s,Other / unclassified,,aluminum
+BNE-198,Brisbane,153.0252102,-27.46973256,2023,2020s,Other / unclassified,,aluminium
+MEL-1559911,Melbourne,144.9474446,-37.81823232,2005,2000s,Sculpture / object,Sculpture,
+MEL-1086759,Melbourne,144.9753153,-37.80824896,1937,1930s,Monument / memorial,Memorials,
+MEL-1088165,Melbourne,144.9640765,-37.81037211,1994,1990s,Sculpture / object,Sculpture,
+MEL-1091182,Melbourne,144.9389348,-37.79566355,,,Monument / memorial,Memorials,
+MEL-1091164,Melbourne,144.9685933,-37.80747038,1901,1900s,Monument / memorial,Memorials,
+MEL-1086743,Melbourne,144.9810123,-37.81325721,1948,1940s,Sculpture / object,Sculpture,
+MEL-1091174,Melbourne,144.960004,-37.78366119,,,Monument / memorial,Memorials,
+MEL-1560968,Melbourne,144.9479146,-37.82010802,2005,2000s,Sculpture / object,Sculpture,
+MEL-1638167,Melbourne,144.971645,-37.81842254,2008,2000s,Sculpture / object,Sculpture,
+MEL-1086756,Melbourne,144.9721789,-37.78930375,1930,1930s,Monument / memorial,Memorials,
+MEL-1638169,Melbourne,144.9417096,-37.82139986,2011,2010s,Sculpture / object,Sculpture,
+MEL-1092419,Melbourne,144.9895811,-37.81704008,1923,1920s,Sculpture / object,Sculpture,
+MEL-1086578,Melbourne,144.9599953,-37.81767706,,,Sculpture / object,Sculpture,
+MEL-1086515,Melbourne,144.9743449,-37.81367295,1902,1900s,Sculpture / object,Sculpture,
+MEL-1089991,Melbourne,144.9799102,-37.81438929,,,Sculpture / object,Sculpture,
+MEL-1086512,Melbourne,144.9737451,-37.8123635,1931,1930s,Sculpture / object,Sculpture,
+MEL-1086511,Melbourne,144.9713354,-37.8222098,1925,1920s,Sculpture / object,Sculpture,
+MEL-1631225,Melbourne,144.9432007,-37.81427151,2014,2010s,Sculpture / object,Sculpture,
+MEL-1517306,Melbourne,144.9243067,-37.79662908,2006,2000s,Sculpture / object,Sculpture,
+MEL-1086735,Melbourne,144.9727521,-37.82677334,1950,1950s,Sculpture / object,Sculpture,
+MEL-1091170,Melbourne,144.9707695,-37.82124039,,,Monument / memorial,Memorials,
+MEL-1282595,Melbourne,144.9736421,-37.81002308,,,Sculpture / object,Sculpture,
+MEL-1086587,Melbourne,144.96619,-37.78528747,1910,1910s,Monument / memorial,Memorials,
+MEL-1088242,Melbourne,144.9592306,-37.80725189,1995,1990s,Sculpture / object,Sculpture,
+MEL-1088260,Melbourne,144.9606625,-37.82024606,1996,1990s,Sculpture / object,Sculpture,
+MEL-1091427,Melbourne,144.9549375,-37.81031621,,,Other / unclassified,Horology,
+MEL-1091510,Melbourne,144.9669943,-37.81552237,2000,2000s,Sculpture / object,Sculpture,
+MEL-1086582,Melbourne,144.9729343,-37.83237746,1934,1930s,Monument / memorial,Memorials,
+MEL-1088158,Melbourne,144.9659129,-37.81352489,1998,1990s,Sculpture / object,Sculpture,
+MEL-1560991,Melbourne,144.9513254,-37.81960598,2003,2000s,Other / unclassified,Unknown,
+MEL-1092463,Melbourne,144.9463251,-37.82023233,2004,2000s,Sculpture / object,Sculpture,
+MEL-1088140,Melbourne,144.9406873,-37.79535267,1995,1990s,Sculpture / object,Sculpture,
+MEL-1086754,Melbourne,144.9632428,-37.80248411,2003,2000s,Sculpture / object,Sculpture,
+MEL-1562802,Melbourne,144.9692869,-37.81114211,2011,2010s,Sculpture / object,Sculpture,
+MEL-1091175,Melbourne,144.9580865,-37.79155022,1925,1920s,Monument / memorial,Memorials,
+MEL-1561982,Melbourne,144.9387695,-37.81528507,2006,2000s,Sculpture / object,Sculpture,
+MEL-1086742,Melbourne,144.9741516,-37.82401351,1964,1960s,Sculpture / object,Sculpture,
+MEL-1086725,Melbourne,144.9560581,-37.78892812,1890,1890s,Sculpture / object,Sculpture,
+MEL-1086513,Melbourne,144.955039,-37.81026399,1930,1930s,Sculpture / object,Sculpture,
+MEL-1091171,Melbourne,144.9539545,-37.81080135,1871,1870s,Sculpture / object,Sculpture,
+MEL-1086749,Melbourne,144.9652649,-37.81295407,1992,1990s,Sculpture / object,Sculpture,
+MEL-1086731,Melbourne,144.9827718,-37.81376752,1936,1930s,Sculpture / object,Sculpture,
+MEL-1088168,Melbourne,144.973169,-37.81129434,1994,1990s,Sculpture / object,Sculpture,
+MEL-1091172,Melbourne,144.9760762,-37.82511478,1934,1930s,Monument / memorial,Memorials,
+MEL-1086576,Melbourne,144.9739555,-37.81243425,,,Sculpture / object,Sculpture,
+MEL-1086740,Melbourne,144.9811022,-37.81340997,1934,1930s,Sculpture / object,Sculpture,
+MEL-1086751,Melbourne,144.9785774,-37.81395386,1933,1930s,Sculpture / object,Sculpture,
+MEL-1088238,Melbourne,144.9715943,-37.8253098,1995,1990s,Sculpture / object,Sculpture,
+MEL-1088259,Melbourne,144.968513,-37.81369576,1996,1990s,Sculpture / object,Sculpture,
+MEL-1545280,Melbourne,144.9698744,-37.80314275,2001,2000s,Sculpture / object,Sculpture,
+MEL-1560993,Melbourne,144.9468307,-37.81801057,2005,2000s,Sculpture / object,Sculpture,
+MEL-1086517,Melbourne,144.9696731,-37.82110929,,,Sculpture / object,Sculpture,
+MEL-1086585,Melbourne,144.9705646,-37.79825783,1915,1910s,Monument / memorial,Memorials,
+MEL-1086738,Melbourne,144.970662,-37.82212412,,,Sculpture / object,Sculpture,
+MEL-1092464,Melbourne,144.9468563,-37.81869383,2005,2000s,Sculpture / object,Sculpture,
+MEL-1562896,Melbourne,144.9454632,-37.81427343,2007,2000s,Sculpture / object,Sculpture,
+MEL-1092461,Melbourne,144.9415465,-37.81510709,2002,2000s,Sculpture / object,Sculpture,
+MEL-1091145,Melbourne,144.9706435,-37.82240515,1912,1910s,Monument / memorial,Memorials,
+MEL-1291344,Melbourne,144.9751703,-37.81152964,2008,2000s,Sculpture / object,Sculpture,
+MEL-1086758,Melbourne,144.9693142,-37.78559128,1939,1930s,Monument / memorial,Memorials,
+MEL-1638161,Melbourne,144.9268743,-37.79627941,2012,2010s,Sculpture / object,Sculpture,
+MEL-1091148,Melbourne,144.9722467,-37.83339206,1903,1900s,Sculpture / object,Sculpture,
+MEL-1638163,Melbourne,144.9717599,-37.81810145,2013,2010s,Sculpture / object,Sculpture,
+MEL-1561983,Melbourne,144.9671786,-37.81609978,2002,2000s,Sculpture / object,Sculpture,
+MEL-1560994,Melbourne,144.9687177,-37.81856096,2006,2000s,Sculpture / object,Sculpture,
+MEL-1091165,Melbourne,144.9767611,-37.82563932,1981,1980s,Monument / memorial,Memorials,
+MEL-1092458,Melbourne,144.9658753,-37.80244409,2005,2000s,Other / unclassified,Unknown,
+MEL-1086723,Melbourne,144.9403835,-37.79490479,1995,1990s,Sculpture / object,Sculpture,
+MEL-1091623,Melbourne,144.9709823,-37.82424173,2002,2000s,Monument / memorial,Memorials,
+MEL-1091178,Melbourne,144.9759002,-37.82537174,1999,1990s,Sculpture / object,Sculpture,
+MEL-1088154,Melbourne,144.9536859,-37.81069512,1950,1950s,Sculpture / object,Sculpture,
+MEL-1086753,Melbourne,144.9829509,-37.8115435,1863,1860s,Monument / memorial,Memorials,
+MEL-1559912,Melbourne,144.9450676,-37.81884331,2006,2000s,Sculpture / object,Sculpture,
+MEL-1091149,Melbourne,144.9721789,-37.78930375,1938,1930s,Monument / memorial,Memorials,
+MEL-1545276,Melbourne,144.9704185,-37.82361218,1908,1900s,Sculpture / object,Sculpture,
+MEL-1562897,Melbourne,144.9465554,-37.81394408,2012,2010s,Other / unclassified,Unknown,
+MEL-1088256,Melbourne,144.9642381,-37.82115251,1996,1990s,Sculpture / object,Sculpture,
+MEL-1091147,Melbourne,144.9673065,-37.79759911,1981,1980s,Monument / memorial,Memorials,
+MEL-1086726,Melbourne,144.9576459,-37.80813551,1881,1880s,Sculpture / object,Sculpture,
+MEL-1091292,Melbourne,144.9663856,-37.80283419,1915,1910s,Monument / memorial,Memorials,
+MEL-1091168,Melbourne,144.9239392,-37.79020534,,,Sculpture / object,Sculpture,
+MEL-1091146,Melbourne,144.973484,-37.80977064,1981,1980s,Monument / memorial,Memorials,
+MEL-1086525,Melbourne,144.9728189,-37.8263011,1958,1950s,Sculpture / object,Sculpture,
+MEL-1088167,Melbourne,144.968211,-37.81304936,1993,1990s,Sculpture / object,Sculpture,
+MEL-1562801,Melbourne,144.9486804,-37.80523352,1926,1920s,Monument / memorial,Memorials,
+MEL-1086724,Melbourne,144.9732134,-37.82427268,1952,1950s,Sculpture / object,Sculpture,
+MEL-1088073,Melbourne,144.9726154,-37.81372574,1905,1900s,Sculpture / object,Sculpture,
+MEL-1086583,Melbourne,144.9674876,-37.81696331,1925,1920s,Sculpture / object,Sculpture,
+MEL-1086586,Melbourne,144.9580902,-37.79217291,1916,1910s,Monument / memorial,Memorials,
+MEL-1559938,Melbourne,144.9523913,-37.82072477,2003,2000s,Sculpture / object,Sculpture,
+MEL-1091457,Melbourne,144.9693477,-37.81125373,,,Sculpture / object,Sculpture,
+MEL-1086589,Melbourne,144.9718568,-37.82594145,1904,1900s,Sculpture / object,Sculpture,
+MEL-1088258,Melbourne,144.9651539,-37.81270568,1996,1990s,Sculpture / object,Sculpture,
+MEL-1562328,Melbourne,144.9741444,-37.82871122,1994,1990s,Monument / memorial,Memorials,
+MEL-1517304,Melbourne,144.9757167,-37.82008256,1999,1990s,Sculpture / object,Sculpture,
+MEL-1086733,Melbourne,144.9763545,-37.81365975,1965,1960s,Monument / memorial,Memorials,
+MEL-1088175,Melbourne,144.9601987,-37.81941336,1994,1990s,Sculpture / object,Sculpture,
+MEL-1086739,Melbourne,144.9784994,-37.81430678,1940,1940s,Sculpture / object,Sculpture,
+MEL-1561981,Melbourne,144.9470729,-37.81532443,1999,1990s,Sculpture / object,Sculpture,
+MEL-1091484,Melbourne,144.9749315,-37.81502994,,,Sculpture / object,Sculpture,
+MEL-1517305,Melbourne,144.9741002,-37.81866658,2002,2000s,Sculpture / object,Sculpture,
+MEL-1086741,Melbourne,144.9711947,-37.8214877,1973,1970s,Sculpture / object,Sculpture,
+MEL-1656982,Melbourne,144.9645693,-37.80700266,2016,2010s,Sculpture / object,Sculpture,
+MEL-1560995,Melbourne,144.969062,-37.81796906,2003,2000s,Other / unclassified,Unknown,
+MEL-1088150,Melbourne,144.9783892,-37.81102351,,,Sculpture / object,Sculpture,
+MEL-1088180,Melbourne,144.968381,-37.81480509,1995,1990s,Sculpture / object,Sculpture,
+MEL-1562804,Melbourne,144.9449568,-37.81430289,2008,2000s,Sculpture / object,Sculpture,
+MEL-1086730,Melbourne,144.9709506,-37.82215325,1973,1970s,Sculpture / object,Sculpture,
+MEL-1086747,Melbourne,144.9641651,-37.81009689,1992,1990s,Sculpture / object,Sculpture,
+MEL-1560969,Melbourne,144.9406089,-37.81452431,2006,2000s,Other / unclassified,Unknown,
+MEL-1086727,Melbourne,144.9785603,-37.81407568,1975,1970s,Sculpture / object,Sculpture,
+MEL-1086752,Melbourne,144.9677327,-37.82607139,1980,1980s,Sculpture / object,Sculpture,
+MEL-1638170,Melbourne,144.940952,-37.82062404,2014,2010s,Sculpture / object,Sculpture,
+MEL-1086757,Melbourne,144.9602272,-37.80153948,1911,1910s,Monument / memorial,Memorials,
+MEL-1560970,Melbourne,144.9659517,-37.81996834,1992,1990s,Sculpture / object,Sculpture,
+MEL-1091166,Melbourne,144.963054,-37.80699394,1995,1990s,Sculpture / object,Sculpture,
+MEL-1560992,Melbourne,144.9474269,-37.82490655,,,Other / unclassified,Illustrations,
+MEL-1091179,Melbourne,144.9788554,-37.8184091,1938,1930s,Monument / memorial,Memorials,
+MEL-1086691,Melbourne,144.9403408,-37.79493522,1995,1990s,Sculpture / object,Sculpture,
+MEL-1086732,Melbourne,144.9739425,-37.81272601,1887,1880s,Sculpture / object,Sculpture,
+MEL-1091180,Melbourne,144.9570538,-37.78913816,,,Sculpture / object,Sculpture,
+MEL-1086574,Melbourne,144.9800158,-37.81188844,1982,1980s,Sculpture / object,Sculpture,
+MEL-1560996,Melbourne,144.9504373,-37.82149344,2006,2000s,Other / unclassified,Unknown,
+MEL-1086516,Melbourne,144.9736992,-37.82798784,1926,1920s,Sculpture / object,Sculpture,
+MEL-1086581,Melbourne,144.9738585,-37.82948203,1935,1930s,Sculpture / object,Sculpture,
+MEL-1086510,Melbourne,144.9655884,-37.80715499,,,Sculpture / object,Sculpture,
+MEL-1092456,Melbourne,144.9667336,-37.814157,2006,2000s,Sculpture / object,Sculpture,
+MEL-1091167,Melbourne,144.971811,-37.82208607,1973,1970s,Sculpture / object,Sculpture,
+MEL-1088146,Melbourne,144.9718353,-37.82233548,1913,1910s,Sculpture / object,Sculpture,
+MEL-1086526,Melbourne,144.959773,-37.81765978,1978,1970s,Sculpture / object,Sculpture,
+MEL-1086734,Melbourne,144.9719166,-37.82666406,1911,1910s,Sculpture / object,Sculpture,
+MEL-1091173,Melbourne,144.9725288,-37.80580965,1965,1960s,Sculpture / object,Sculpture,
+MEL-1636858,Melbourne,144.9389301,-37.81590194,2007,2000s,Sculpture / object,Sculpture,
+MEL-1092462,Melbourne,144.9470094,-37.82186286,2005,2000s,Sculpture / object,Sculpture,
+MEL-1092200,Melbourne,144.9718217,-37.81859572,2006,2000s,Other / unclassified,Indigenous,
+MEL-1088148,Melbourne,144.9668104,-37.81575629,1992,1990s,Sculpture / object,Sculpture,
+MEL-1638159,Melbourne,144.9302054,-37.79405884,1996,1990s,Other / unclassified,Ceramic,
+MEL-1631300,Melbourne,144.960236,-37.81981971,1997,1990s,Sculpture / object,Sculpture,
+MEL-1091591,Melbourne,144.9729739,-37.82721243,2001,2000s,Monument / memorial,Memorials,
+MEL-1091176,Melbourne,144.9747726,-37.82175927,,,Monument / memorial,Memorials,
+MEL-1088243,Melbourne,144.9794944,-37.81457925,1973,1970s,Sculpture / object,Sculpture,
+MEL-1092457,Melbourne,144.9740758,-37.81912216,2003,2000s,Sculpture / object,Sculpture,
+MEL-1088144,Melbourne,144.9826571,-37.81182207,1864,1860s,Sculpture / object,Sculpture,
+MEL-1559936,Melbourne,144.9491421,-37.82174007,2006,2000s,Sculpture / object,Sculpture,
+MEL-1086736,Melbourne,144.972479,-37.82184119,1907,1900s,Sculpture / object,Sculpture,
+MEL-1560971,Melbourne,144.9411302,-37.81435923,2005,2000s,Other / unclassified,Illustrations,
+MEL-1559937,Melbourne,144.9469985,-37.8191897,2005,2000s,Sculpture / object,Sculpture,
+MEL-1636851,Melbourne,144.9739819,-37.8283138,2014,2010s,Sculpture / object,Sculpture,
+MEL-1086729,Melbourne,144.9523648,-37.78477298,1926,1920s,Sculpture / object,Sculpture,
+MEL-1088163,Melbourne,144.9634008,-37.81409769,,,Sculpture / object,Sculpture,
+MEL-1603285,Melbourne,144.9702907,-37.8223915,2013,2010s,Sculpture / object,Sculpture,
+MEL-1552146,Melbourne,144.9430068,-37.78958485,2013,2010s,Sculpture / object,Sculpture,
+MEL-1088244,Melbourne,144.9532939,-37.78256132,1995,1990s,Sculpture / object,Sculpture,
+MEL-1086579,Melbourne,144.9718244,-37.81957057,1974,1970s,Monument / memorial,Memorials,
+MEL-1559913,Melbourne,144.9462026,-37.81569486,2000,2000s,Sculpture / object,Sculpture,
+MEL-1091177,Melbourne,144.9743398,-37.83028191,1998,1990s,Sculpture / object,Sculpture,
+MEL-1088151,Melbourne,144.9086879,-37.80673765,1941,1940s,Sculpture / object,Sculpture,
+MEL-1088241,Melbourne,144.9797032,-37.8121218,,,Sculpture / object,Sculpture,
+MEL-1091859,Melbourne,144.9580572,-37.80932642,2003,2000s,Sculpture / object,Sculpture,
+MEL-1086514,Melbourne,144.9724521,-37.80474431,1914,1910s,Sculpture / object,Sculpture,
+MEL-1086737,Melbourne,144.9744198,-37.82975546,1965,1960s,Sculpture / object,Sculpture,
+MEL-1086750,Melbourne,144.9827587,-37.813842,1936,1930s,Sculpture / object,Sculpture,
+MEL-1632291,Melbourne,144.9673082,-37.81613996,2000,2000s,Sculpture / object,Sculpture,
+MEL-1086575,Melbourne,144.9713683,-37.80545677,1880,1880s,Sculpture / object,Sculpture,
+MEL-1086590,Melbourne,144.9734173,-37.8050913,,,Monument / memorial,Memorials,
+MEL-1086524,Melbourne,144.966704,-37.8156337,1865,1860s,Sculpture / object,Sculpture,
+MEL-1088730,Melbourne,144.9673387,-37.81405489,1970,1970s,Sculpture / object,Sculpture,
+MEL-1091181,Melbourne,144.9730212,-37.81891098,1936,1930s,Monument / memorial,Memorials,
+MEL-1562803,Melbourne,144.9379552,-37.8113298,2009,2000s,Sculpture / object,Sculpture,
+MEL-1086728,Melbourne,144.9703553,-37.82202809,1974,1970s,Sculpture / object,Sculpture,
+MEL-1086745,Melbourne,144.9640461,-37.80982754,1992,1990s,Sculpture / object,Sculpture,
+MEL-1091293,Melbourne,144.9721343,-37.80376917,1997,1990s,Sculpture / object,Sculpture,
+MEL-1092435,Melbourne,144.9629605,-37.82007938,2005,2000s,Sculpture / object,Sculpture,
+MEL-1086523,Melbourne,144.97472,-37.81437358,1903,1900s,Sculpture / object,Sculpture,
+MEL-1088068,Melbourne,144.9611152,-37.77886822,1995,1990s,Sculpture / object,Sculpture,
+MEL-1092434,Melbourne,144.9594544,-37.82010166,2001,2000s,Other / unclassified,Indigenous,
+MEL-1092460,Melbourne,144.9452797,-37.81712235,2000,2000s,Sculpture / object,Sculpture,
+MEL-1088257,Melbourne,144.9531654,-37.81147506,1995,1990s,Sculpture / object,Sculpture,
+MEL-1086748,Melbourne,144.9664693,-37.81510417,1992,1990s,Sculpture / object,Sculpture,
+MEL-1091183,Melbourne,144.9801407,-37.81371709,,,Monument / memorial,Memorials,
+MEL-1088162,Melbourne,144.9436883,-37.80881693,1994,1990s,Sculpture / object,Sculpture,
+MEL-1088149,Melbourne,144.9785955,-37.81387433,,,Monument / memorial,Memorials,
+MEL-1086760,Melbourne,144.9497392,-37.80334182,1877,1870s,Monument / memorial,Memorials,
+MEL-1087398,Melbourne,144.9670615,-37.81642363,1993,1990s,Sculpture / object,Sculpture,
+MEL-1560967,Melbourne,144.9476192,-37.82433721,2003,2000s,Other / unclassified,Unknown,
+MEL-1088166,Melbourne,144.9662509,-37.81439838,1994,1990s,Sculpture / object,Sculpture,
+MEL-1088157,Melbourne,144.9655745,-37.8136854,1993,1990s,Sculpture / object,Sculpture,
+MEL-1086577,Melbourne,144.9728499,-37.80490093,,,Sculpture / object,Sculpture,
+MEL-1088161,Melbourne,144.9583067,-37.80745243,1994,1990s,Sculpture / object,Sculpture,
+MEL-1086744,Melbourne,144.9656409,-37.81353704,1993,1990s,Sculpture / object,Sculpture,
+MEL-1636984,Melbourne,144.9631284,-37.82061839,2010,2010s,Sculpture / object,Sculpture,
+MEL-1086591,Melbourne,144.9808824,-37.81041672,1862,1860s,Sculpture / object,Sculpture,
+MEL-1091152,Melbourne,144.9569667,-37.78205004,1936,1930s,Monument / memorial,Memorials,
+MEL-1088152,Melbourne,144.9817359,-37.81280965,1873,1870s,Sculpture / object,Sculpture,
+MEL-1559615,Melbourne,144.9729592,-37.81895424,1988,1980s,Sculpture / object,Sculpture,
+MEL-1086584,Melbourne,144.9709882,-37.8226718,1920,1920s,Sculpture / object,Sculpture,
+MEL-1092459,Melbourne,144.9632854,-37.81980563,2007,2000s,Sculpture / object,Sculpture,
+MEL-1086755,Melbourne,144.9599089,-37.80662922,1901,1900s,Monument / memorial,Memorials,
+MEL-1092465,Melbourne,144.9472468,-37.81924314,2004,2000s,Sculpture / object,Sculpture,
+MEL-1088153,Melbourne,144.9708276,-37.82354894,1981,1980s,Sculpture / object,Sculpture,
+MEL-1086518,Melbourne,144.9697574,-37.82105938,,,Sculpture / object,Sculpture,
+CBR-ARTW580,Canberra,149.1502877,-35.14914714,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW1557,Canberra,149.1401531,-35.31607761,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1597,Canberra,149.1111721,-35.46367504,,,Mural / wall art,LEGAL GRAFFITI SITES,PAINT
+CBR-ARTW16,Canberra,149.1400447,-35.25077678,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW629,Canberra,149.1449722,-35.31018051,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW233,Canberra,149.160732,-35.19975228,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW1523,Canberra,149.0395189,-35.27556315,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW435,Canberra,149.0519487,-35.38314603,,,Other / unclassified,TILED (LARGE TILES),STAINLESS STEEL
+CBR-ARTW154,Canberra,149.0695885,-35.2382911,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW240,Canberra,149.1587689,-35.19880902,,,Other / unclassified,FEATURE,
+CBR-ARTW186,Canberra,149.0432787,-35.24320752,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),TILE
+CBR-ARTW507,Canberra,149.1470519,-35.19132542,,,Mural / wall art,PAINTING MURAL,CONCRETE
+CBR-ARTW1513,Canberra,149.0398471,-35.27545314,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW4,Canberra,149.0537914,-35.33944767,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW699,Canberra,149.0799769,-35.37761317,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW195,Canberra,149.1123685,-35.19036517,,,Sculpture / object,SCULPTURE,
+CBR-ARTW499,Canberra,149.1457808,-35.1913422,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW428,Canberra,149.0762193,-35.35284041,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW1596,Canberra,149.0524106,-35.34130912,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1534,Canberra,149.0375635,-35.31387799,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW197,Canberra,149.0554623,-35.22559533,,,Mural / wall art,STREET ART,
+CBR-ARTW619,Canberra,149.0307459,-35.32514238,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW621,Canberra,149.0384224,-35.32466716,2015,2010s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW492,Canberra,149.084126,-35.32080766,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW631,Canberra,149.1451005,-35.31015454,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW738,Canberra,149.1264773,-35.29047053,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW1594,Canberra,149.1204208,-35.43878231,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW680,Canberra,149.1623522,-35.1938688,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW644,Canberra,149.0906042,-35.23020057,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW230,Canberra,149.1604939,-35.1998139,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW1520,Canberra,149.0395331,-35.27555364,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW498,Canberra,149.147138,-35.19187639,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW432,Canberra,149.0521864,-35.3833467,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW225,Canberra,149.1522547,-35.20409255,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1519,Canberra,149.0395371,-35.27556613,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW583,Canberra,149.1503288,-35.14916783,,,Other / unclassified,TILED (LARGE TILES),STAINLESS STEEL
+CBR-ARTW557,Canberra,149.0399302,-35.23370348,2013,2010s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW634,Canberra,148.9434239,-35.32195784,2012,2010s,Other / unclassified,FEATURE,METAL
+CBR-ARTW458,Canberra,149.1425908,-35.16857538,2010,2010s,Sculpture / object,SCULPTURE,PLASTIC
+CBR-ARTW633,Canberra,148.9434514,-35.32194133,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW544,Canberra,149.1491612,-35.15988718,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW627,Canberra,149.1450623,-35.31068176,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW639,Canberra,149.086136,-35.22696909,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW572,Canberra,149.0908942,-35.29139189,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW484,Canberra,149.1436144,-35.17206803,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW433,Canberra,149.0518481,-35.38316034,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW487,Canberra,149.072455,-35.4028774,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW743,Canberra,149.126675,-35.29052245,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW89,Canberra,149.1544367,-35.33276579,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW747,Canberra,149.1264837,-35.29011118,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW764,Canberra,149.1225412,-35.14757251,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW667,Canberra,149.062648,-35.22568687,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1546,Canberra,149.0747282,-35.23594819,,,Monument / memorial,VINYL DECORATIVE WRAP,PAINT
+CBR-ARTW1509,Canberra,149.039858,-35.27548656,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW616,Canberra,149.1213135,-35.29917219,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW702,Canberra,149.0303182,-35.31165962,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1564,Canberra,149.0997657,-35.40561955,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW184,Canberra,149.0436471,-35.24357462,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW235,Canberra,149.1597381,-35.19928325,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW455,Canberra,149.0135097,-35.22176049,,,Other / unclassified,FEATURE,
+CBR-ARTW117,Canberra,149.1349464,-35.17632283,,,Sculpture / object,SCULPTURE,
+CBR-ARTW192,Canberra,149.0742147,-35.23628906,,,Sculpture / object,SCULPTURE,BRASS AND CONCRETE
+CBR-ARTW1580,Canberra,149.1346679,-35.18425349,,,Mural / wall art,STREET ART,METAL
+CBR-ARTW605,Canberra,149.1333792,-35.16227137,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1503,Canberra,149.1410148,-35.25041599,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW497,Canberra,149.1445887,-35.19147708,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW459,Canberra,149.0898445,-35.29166375,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1560,Canberra,149.0671556,-35.41248163,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW462,Canberra,149.0369995,-35.3478869,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW477,Canberra,149.1441833,-35.17304783,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW448,Canberra,149.0616452,-35.25917803,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW646,Canberra,149.0921004,-35.22862021,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW204,Canberra,149.0111742,-35.22464147,,,Sculpture / object,SCULPTURE,
+CBR-ARTW439,Canberra,149.0712977,-35.38558533,,,Other / unclassified,FEATURE,STAINLESS STEEL
+CBR-ARTW227,Canberra,149.1567854,-35.19804372,,,Other / unclassified,FEATURE,BRASS
+CBR-ARTW1517,Canberra,149.0399261,-35.27544331,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW224,Canberra,149.1522431,-35.20410608,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW470,Canberra,149.0549079,-35.33677178,,,Sculpture / object,SCULPTURE,
+CBR-ARTW760,Canberra,149.1223077,-35.14765054,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1566,Canberra,149.1338276,-35.3220661,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1573,Canberra,149.1535036,-35.23860407,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1000,Canberra,149.1256915,-35.2807063,,,Other / unclassified,FEATURE,
+CBR-ARTW123,Canberra,149.0951129,-35.36419781,,,Other / unclassified,FEATURE,
+CBR-ARTW1582,Canberra,149.1315549,-35.27105492,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1592,Canberra,149.1564616,-35.23198173,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW426,Canberra,149.1285419,-35.40808504,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW45,Canberra,149.0328534,-35.33693034,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW440,Canberra,149.0710273,-35.38556808,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW50,Canberra,149.069804,-35.2391486,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW155,Canberra,149.0659959,-35.41319398,,,Other / unclassified,FEATURE,
+CBR-ARTW768,Canberra,149.1351632,-35.18464834,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW114,Canberra,149.1349752,-35.17592566,,,Sculpture / object,SCULPTURE,
+CBR-ARTW671,Canberra,149.0522151,-35.34131308,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW675,Canberra,149.1623482,-35.19431016,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW757,Canberra,149.1179364,-35.26086161,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW1553,Canberra,149.0769645,-35.25187589,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW742,Canberra,149.1267132,-35.29054756,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW585,Canberra,149.1503137,-35.14911312,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW654,Canberra,149.1537544,-35.2386885,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW120,Canberra,149.134915,-35.17593573,,,Sculpture / object,SCULPTURE,
+CBR-ARTW508,Canberra,149.1464921,-35.19205103,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW741,Canberra,149.1266287,-35.29055277,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW1488,Canberra,149.1524897,-35.20396934,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1540,Canberra,149.0686267,-35.41580783,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW464,Canberra,149.0379317,-35.34778454,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW524,Canberra,149.0630623,-35.39171342,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW445,Canberra,149.0618724,-35.25912278,,,Other / unclassified,FEATURE,STONE
+CBR-ARTW429,Canberra,149.0522418,-35.38330734,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW734,Canberra,149.1264216,-35.29046853,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW700,Canberra,149.0799682,-35.37761951,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW549,Canberra,149.1492983,-35.1595476,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW721,Canberra,149.0252961,-35.30342498,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW518,Canberra,149.1013613,-35.29236371,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW188,Canberra,149.043385,-35.24306033,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),
+CBR-ARTW8,Canberra,149.088527,-35.34293298,,,Mural / wall art,STREET ART,
+CBR-ARTW678,Canberra,149.1624585,-35.19381885,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW444,Canberra,149.0619279,-35.25915336,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW593,Canberra,149.1442183,-35.16021074,2014,2010s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1614,Canberra,148.9294781,-35.44405665,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW434,Canberra,149.0519821,-35.38318995,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW1537,Canberra,149.0374925,-35.31395682,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW1587,Canberra,149.1315492,-35.27921736,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1514,Canberra,149.0398991,-35.27546071,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1585,Canberra,149.1462508,-35.33412407,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW181,Canberra,149.13485,-35.17618564,,,Sculpture / object,SCULPTURE,
+CBR-ARTW456,Canberra,149.0135821,-35.22178241,,,Other / unclassified,FEATURE,
+CBR-ARTW208,Canberra,149.0193406,-35.2221101,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW490,Canberra,149.0723959,-35.40277527,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW180,Canberra,149.1215592,-35.29865313,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW548,Canberra,149.1487654,-35.16015014,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW200,Canberra,149.0825732,-35.32532965,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),TILE
+CBR-ARTW1605,Canberra,148.9426895,-35.44025411,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1526,Canberra,149.0398273,-35.27553433,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW638,Canberra,149.0862579,-35.22682529,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW612,Canberra,149.1210808,-35.29903037,,,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW461,Canberra,149.0549551,-35.336803,,,Sculpture / object,SCULPTURE,
+CBR-ARTW469,Canberra,149.054795,-35.33744695,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW480,Canberra,149.1452185,-35.17231133,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW68,Canberra,149.1223425,-35.26446306,,,Sculpture / object,SCULPTURE,
+CBR-ARTW635,Canberra,148.9433774,-35.32200605,2012,2010s,Other / unclassified,FEATURE,METAL
+CBR-ARTW179,Canberra,149.1210759,-35.29838226,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW112,Canberra,149.1346934,-35.17601627,,,Sculpture / object,SCULPTURE,
+CBR-ARTW1548,Canberra,149.0847476,-35.34039984,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW201,Canberra,149.0822592,-35.32496967,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),
+CBR-ARTW11,Canberra,149.0537904,-35.33732178,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1,Canberra,149.087079,-35.34448695,,,Other / unclassified,FEATURE,
+CBR-ARTW672,Canberra,149.0396494,-35.30833303,2019,2010s,Sculpture / object,SCULPTURE,
+CBR-ARTW1531,Canberra,149.1499176,-35.23689936,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW674,Canberra,149.1624434,-35.19435999,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW576,Canberra,149.0909256,-35.2912662,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW33,Canberra,149.0573453,-35.34938549,,,Mural / wall art,STREET ART,
+CBR-ARTW65,Canberra,149.070237,-35.24009389,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1489,Canberra,149.0285589,-35.30307049,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1577,Canberra,149.0995839,-35.4020033,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW95,Canberra,149.0538166,-35.3417103,,,Other / unclassified,FEATURE,
+CBR-ARTW541,Canberra,149.1097356,-35.20270729,2013,2010s,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW437,Canberra,149.0714567,-35.38560386,,,Other / unclassified,FEATURE,
+CBR-ARTW1521,Canberra,149.039536,-35.27554222,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW41,Canberra,149.1270249,-35.25143017,,,Mural / wall art,STREET ART,
+CBR-ARTW517,Canberra,149.1012687,-35.2923939,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW579,Canberra,149.1502863,-35.14915697,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW632,Canberra,148.9422461,-35.32162332,2012,2010s,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW454,Canberra,149.0127237,-35.22211004,,,Other / unclassified,FEATURE,
+CBR-ARTW577,Canberra,149.0907207,-35.29108842,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1608,Canberra,148.9428141,-35.44031133,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW618,Canberra,149.1217429,-35.29891969,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW744,Canberra,149.1266551,-35.29006434,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW1565,Canberra,149.132867,-35.2743003,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW666,Canberra,149.0628168,-35.22587527,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW545,Canberra,149.1491677,-35.15989841,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW467,Canberra,149.1420584,-35.31603427,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW591,Canberra,149.1471895,-35.15187849,2014,2010s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW29,Canberra,149.06437,-35.38942808,,,Mural / wall art,STREET ART,
+CBR-ARTW222,Canberra,149.1506285,-35.20683544,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW536,Canberra,149.1464402,-35.19156247,2013,2010s,Other / unclassified,FEATURE,TIMBER AND METAL
+CBR-ARTW237,Canberra,149.1580863,-35.19849658,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW1550,Canberra,149.1403078,-35.25052324,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW496,Canberra,149.1443367,-35.17878532,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW758,Canberra,149.1179345,-35.26085586,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW560,Canberra,149.1187792,-35.25731832,2011,2010s,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW205,Canberra,149.0111938,-35.22456778,,,Sculpture / object,SCULPTURE,
+CBR-ARTW752,Canberra,149.1263837,-35.29015795,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW113,Canberra,149.1350139,-35.17638474,,,Sculpture / object,SCULPTURE,
+CBR-ARTW748,Canberra,149.1264793,-35.29007477,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW138,Canberra,149.145207,-35.26212315,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW659,Canberra,149.1190415,-35.16057126,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW550,Canberra,149.0751226,-35.23637419,,,Monument / memorial,MOSAICED SURFACE (SMALL TILES),TILE
+CBR-ARTW765,Canberra,149.1226297,-35.1472763,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW479,Canberra,149.145094,-35.17225483,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW13,Canberra,149.144372,-35.24901189,,,Mural / wall art,STREET ART,
+CBR-ARTW446,Canberra,149.0619083,-35.25908834,,,Other / unclassified,FEATURE,STONE
+CBR-ARTW1518,Canberra,149.0395329,-35.27552841,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW203,Canberra,149.0978474,-35.30754054,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),
+CBR-ARTW468,Canberra,149.150392,-35.20694009,,,Sculpture / object,SCULPTURE,
+CBR-ARTW1532,Canberra,149.0384083,-35.31373722,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW553,Canberra,149.1423324,-35.17106765,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW494,Canberra,149.0458344,-35.35740174,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW736,Canberra,149.1265655,-35.29051094,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW1528,Canberra,149.0398444,-35.2755117,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1572,Canberra,149.017789,-35.2208483,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW483,Canberra,149.1446031,-35.1721894,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW21,Canberra,149.1143904,-35.31884067,,,Mural / wall art,STREET ART,
+CBR-ARTW243,Canberra,149.0487769,-35.20833994,,,Sculpture / object,SCULPTURE,
+CBR-ARTW703,Canberra,149.0281191,-35.31142232,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW187,Canberra,149.0433263,-35.24322834,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),
+CBR-ARTW1578,Canberra,149.0400577,-35.23384919,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW443,Canberra,149.0711105,-35.38571826,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW183,Canberra,149.0436344,-35.24359546,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),TILE
+CBR-ARTW526,Canberra,149.0631252,-35.3918334,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW571,Canberra,149.0908921,-35.29139712,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW542,Canberra,149.1101528,-35.20277884,2013,2010s,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW558,Canberra,149.0605538,-35.38870874,1901,1900s,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1571,Canberra,149.1285737,-35.18128704,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW543,Canberra,149.1491605,-35.15987223,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW481,Canberra,149.1439374,-35.17271044,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1598,Canberra,149.0896702,-35.33175765,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW63,Canberra,149.0696471,-35.23834058,,,Sculpture / object,SCULPTURE,BRICK
+CBR-ARTW49,Canberra,149.0698997,-35.2383666,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW5,Canberra,149.136787,-35.28918507,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1549,Canberra,149.130747,-35.17928742,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW630,Canberra,149.1450159,-35.31013412,,,Sculpture / object,SCULPTURE,
+CBR-ARTW1510,Canberra,149.0398514,-35.27546543,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1579,Canberra,149.0371091,-35.34826146,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW637,Canberra,149.0899723,-35.23087291,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW67,Canberra,149.0386685,-35.22409669,,,Mural / wall art,STREET ART,
+CBR-ARTW451,Canberra,149.01261,-35.22230875,,,Other / unclassified,FEATURE,
+CBR-ARTW1563,Canberra,149.0535782,-35.34122064,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1576,Canberra,149.0532888,-35.21448626,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1538,Canberra,149.0306441,-35.28631098,2022,2020s,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW189,Canberra,149.0681304,-35.23821704,2001,2000s,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW226,Canberra,149.1568041,-35.1980437,,,Other / unclassified,FEATURE,BRASS
+CBR-ARTW1554,Canberra,149.0691343,-35.23850858,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1591,Canberra,149.135298,-35.28134307,2001,2000s,Other / unclassified,FEATURE,STONE
+CBR-ARTW722,Canberra,149.0253361,-35.30346395,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW486,Canberra,149.0723473,-35.40276461,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW530,Canberra,149.1487498,-35.16310876,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1561,Canberra,149.1009906,-35.30571156,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW740,Canberra,149.1264309,-35.29042851,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW234,Canberra,149.1603237,-35.19955956,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW223,Canberra,149.1522651,-35.20410765,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1574,Canberra,149.1318032,-35.27013267,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1555,Canberra,149.1394491,-35.25021465,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW615,Canberra,149.12142,-35.29897251,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW525,Canberra,149.0631449,-35.39185461,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1515,Canberra,149.0399035,-35.27544992,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW516,Canberra,149.1011849,-35.29223289,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW116,Canberra,149.1347815,-35.17610487,,,Sculpture / object,SCULPTURE,
+CBR-ARTW108,Canberra,149.1310374,-35.28138186,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW239,Canberra,149.1596197,-35.19924273,,,Other / unclassified,FEATURE,
+CBR-ARTW491,Canberra,149.1105331,-35.41395503,2012,2010s,Other / unclassified,FEATURE,PAINT
+CBR-ARTW1544,Canberra,149.0703345,-35.40861635,,,Other / unclassified,VINYL DECORATIVE WRAP,PAINT
+CBR-ARTW546,Canberra,149.1492462,-35.15953734,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1609,Canberra,148.9427273,-35.44029676,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW190,Canberra,149.0681272,-35.23831592,2001,2000s,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW122,Canberra,149.1347545,-35.17601519,,,Sculpture / object,SCULPTURE,
+CBR-ARTW148,Canberra,149.0445982,-35.34913722,,,Mural / wall art,STREET ART,
+CBR-ARTW1602,Canberra,148.9296976,-35.44349071,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW735,Canberra,149.1264911,-35.29051616,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW228,Canberra,149.1567672,-35.19802229,,,Other / unclassified,FEATURE,BRASS
+CBR-ARTW1507,Canberra,149.1322004,-35.27967572,,,Sculpture / object,SCULPTURE,ALUMINIUM
+CBR-ARTW1586,Canberra,149.0638093,-35.38847366,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW537,Canberra,149.1473332,-35.19061904,,,Other / unclassified,FEATURE,TIMBER
+CBR-ARTW769,Canberra,149.1540366,-35.33299916,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW17,Canberra,149.078156,-35.35073121,,,Mural / wall art,STREET ART,
+CBR-ARTW552,Canberra,149.1436154,-35.17206761,,,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW665,Canberra,148.9777925,-35.58317206,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW749,Canberra,149.1264368,-35.29010045,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW566,Canberra,149.1183895,-35.25752826,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW242,Canberra,149.158168,-35.19849564,,,Other / unclassified,FEATURE,
+CBR-ARTW475,Canberra,149.0633458,-35.34243898,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW750,Canberra,149.1264319,-35.29015636,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW679,Canberra,149.1624078,-35.19389056,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW165,Canberra,149.043831,-35.24331621,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),
+CBR-ARTW745,Canberra,149.1266144,-35.29006746,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW9,Canberra,149.1447383,-35.24508137,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW527,Canberra,149.0631339,-35.39184516,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW570,Canberra,149.0908757,-35.29141128,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW42,Canberra,149.0585877,-35.38074353,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1575,Canberra,149.0433047,-35.24374044,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1535,Canberra,149.0375781,-35.31385689,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW18,Canberra,149.0867767,-35.34451547,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1547,Canberra,149.0693447,-35.17197928,2022,2020s,Other / unclassified,VINYL DECORATIVE WRAP,PAINT
+CBR-ARTW763,Canberra,149.1225979,-35.14776904,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW506,Canberra,149.1473546,-35.19064161,,,Mural / wall art,PAINTING MURAL,CONCRETE
+CBR-ARTW193,Canberra,149.1203985,-35.17425347,,,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW118,Canberra,149.1349893,-35.17633559,,,Sculpture / object,SCULPTURE,
+CBR-ARTW185,Canberra,149.0433009,-35.24321923,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW460,Canberra,149.0898671,-35.29144651,,,Other / unclassified,FEATURE,
+CBR-ARTW449,Canberra,149.0122243,-35.22227614,,,Other / unclassified,FEATURE,
+CBR-ARTW1562,Canberra,149.1040775,-35.37621883,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW531,Canberra,149.1487992,-35.16304491,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW673,Canberra,149.1662597,-35.30804577,2018,2010s,Mural / wall art,PAINTING MURAL,METAL
+CBR-ARTW1541,Canberra,149.0681448,-35.41515789,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW229,Canberra,149.1605125,-35.19980792,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW10,Canberra,149.086626,-35.42872836,,,Mural / wall art,STREET ART,
+CBR-ARTW1604,Canberra,149.0282473,-35.28247351,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW578,Canberra,149.0907038,-35.29108722,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW26,Canberra,149.1461146,-35.33247573,,,Mural / wall art,STREET ART,
+CBR-ARTW582,Canberra,149.1502886,-35.14917954,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW1536,Canberra,149.0375827,-35.31385433,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW521,Canberra,149.1012178,-35.29226517,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW614,Canberra,149.1214647,-35.2991166,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW488,Canberra,149.0724722,-35.40290389,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW453,Canberra,149.0126835,-35.22214013,,,Other / unclassified,FEATURE,
+CBR-ARTW198,Canberra,149.0375473,-35.21076887,,,Mural / wall art,LEGAL GRAFFITI SITES,
+CBR-ARTW1603,Canberra,148.9296307,-35.44359175,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW452,Canberra,149.0126358,-35.22225403,,,Other / unclassified,FEATURE,
+CBR-ARTW539,Canberra,149.1095162,-35.20193397,2013,2010s,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW669,Canberra,149.0701243,-35.4081396,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW509,Canberra,149.1468846,-35.19176459,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW145,Canberra,149.1257371,-35.29796322,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW677,Canberra,149.1623581,-35.19426858,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW1606,Canberra,148.9361803,-35.3248516,,,Other / unclassified,FEATURE,STONE
+CBR-ARTW478,Canberra,149.1450797,-35.17228654,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW51,Canberra,149.1627424,-35.24846018,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW512,Canberra,149.1007814,-35.29239817,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW559,Canberra,149.1072659,-35.20607899,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW166,Canberra,149.0334356,-35.20444019,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW1539,Canberra,149.0685055,-35.4156272,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW221,Canberra,149.1506319,-35.20684729,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW485,Canberra,149.1118701,-35.22427339,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW529,Canberra,149.1486798,-35.16304853,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW194,Canberra,149.1230648,-35.17679289,,,Sculpture / object,SCULPTURE,
+CBR-ARTW1600,Canberra,149.0109212,-35.22512881,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW238,Canberra,149.1596391,-35.19922338,,,Other / unclassified,FEATURE,
+CBR-ARTW596,Canberra,149.1390872,-35.15629056,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW663,Canberra,149.1204012,-35.15576732,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW241,Canberra,149.1587496,-35.19883408,,,Other / unclassified,FEATURE,
+CBR-ARTW1529,Canberra,149.0398426,-35.27550149,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1545,Canberra,149.1252117,-35.25202418,,,Other / unclassified,VINYL DECORATIVE WRAP,PAINT
+CBR-ARTW641,Canberra,149.0852587,-35.22765096,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW6,Canberra,149.1373815,-35.28927596,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW660,Canberra,149.1190014,-35.16066657,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW450,Canberra,149.0122752,-35.22220961,,,Other / unclassified,FEATURE,
+CBR-ARTW442,Canberra,149.0711806,-35.38562877,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW556,Canberra,149.1461814,-35.33242676,,,Mural / wall art,LEGAL GRAFFITI SITES,PAINT
+CBR-ARTW1552,Canberra,149.1601842,-35.25203927,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW489,Canberra,149.0724476,-35.40281072,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW761,Canberra,149.1223503,-35.14763672,,,Sculpture / object,SCULPTURE,
+CBR-ARTW1516,Canberra,149.039913,-35.27544125,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1599,Canberra,149.0944832,-35.33088224,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1607,Canberra,148.9428232,-35.44026489,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW535,Canberra,149.1466777,-35.19142248,2013,2010s,Other / unclassified,FEATURE,TIMBER AND METAL
+CBR-ARTW564,Canberra,149.1191115,-35.25750464,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW513,Canberra,149.1006796,-35.2924201,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW668,Canberra,149.0703811,-35.40811201,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW681,Canberra,149.1082927,-35.1513561,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1524,Canberra,149.039511,-35.2755651,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1556,Canberra,149.0234544,-35.23013323,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW520,Canberra,149.1016275,-35.29234997,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW762,Canberra,149.1224025,-35.14764746,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW493,Canberra,149.0459517,-35.3574523,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW19,Canberra,149.1326866,-35.33684764,,,Mural / wall art,STREET ART,
+CBR-ARTW751,Canberra,149.1264032,-35.29019793,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW1581,Canberra,149.1327253,-35.27538012,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW236,Canberra,149.1583059,-35.19860301,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW209,Canberra,149.0194049,-35.22214397,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW14,Canberra,149.0641795,-35.41037359,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW586,Canberra,149.1503017,-35.1490895,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW465,Canberra,149.0379366,-35.3478037,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW625,Canberra,149.0392017,-35.31912356,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW58,Canberra,149.1340616,-35.24504475,,,Mural / wall art,STREET ART,
+CBR-ARTW532,Canberra,149.1487598,-35.16324928,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW555,Canberra,149.10688,-35.23270584,,,Mural / wall art,LEGAL GRAFFITI SITES,PAINT
+CBR-ARTW430,Canberra,149.0518146,-35.38311263,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW670,Canberra,149.0703496,-35.40819833,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW528,Canberra,149.1486516,-35.16303421,,,Other / unclassified,FEATURE,
+CBR-ARTW38,Canberra,149.1427385,-35.32801822,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW3,Canberra,149.0658432,-35.41088458,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),
+CBR-ARTW436,Canberra,149.0713453,-35.385449,,,Sculpture / object,SCULPTURE,
+CBR-ARTW1612,Canberra,148.9421015,-35.32392272,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW574,Canberra,149.0908999,-35.29138199,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW534,Canberra,149.0832114,-35.45617493,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW156,Canberra,149.1114666,-35.18134578,,,Sculpture / object,SCULPTURE,
+CBR-ARTW182,Canberra,149.0442121,-35.24340648,,,Other / unclassified,MOSAICED SURFACE (SMALL TILES),
+CBR-ARTW595,Canberra,149.1442258,-35.16023539,2014,2010s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW772,Canberra,149.0407632,-35.23378915,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW482,Canberra,149.1445244,-35.17243359,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1530,Canberra,149.0398558,-35.27549994,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW427,Canberra,149.1285043,-35.40814785,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW1611,Canberra,148.9419956,-35.32407788,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW653,Canberra,149.153783,-35.23871549,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW771,Canberra,149.0603522,-35.38731671,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW57,Canberra,149.0519619,-35.38261294,,,Mural / wall art,STREET ART,
+CBR-ARTW511,Canberra,149.0934796,-35.29871182,2010,2010s,Other / unclassified,FEATURE,METAL
+CBR-ARTW231,Canberra,149.1604738,-35.19979389,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW636,Canberra,148.9433611,-35.32203084,2012,2010s,Other / unclassified,FEATURE,METAL
+CBR-ARTW47,Canberra,149.1109537,-35.26539644,,,Mural / wall art,STREET ART,
+CBR-ARTW565,Canberra,149.1191345,-35.25749835,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW472,Canberra,149.0381957,-35.3476982,,,Other / unclassified,FEATURE,STAINLESS STEEL
+CBR-ARTW676,Canberra,149.162418,-35.19427942,,,Sculpture / object,SCULPTURE,TIMBER AND METAL
+CBR-ARTW538,Canberra,149.1100132,-35.20169041,2013,2010s,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW43,Canberra,149.1124702,-35.41227127,,,Mural / wall art,STREET ART,
+CBR-ARTW664,Canberra,149.0215797,-35.30648998,,,Sculpture / object,SCULPTURE,
+CBR-ARTW620,Canberra,149.0335077,-35.32639703,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW540,Canberra,149.110259,-35.20240608,,,Sculpture / object,SCULPTURE,BRONZE
+CBR-ARTW23,Canberra,149.1542448,-35.28927971,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW431,Canberra,149.0520244,-35.38323698,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW1527,Canberra,149.0398355,-35.27552263,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW37,Canberra,149.0850127,-35.21674055,,,Mural / wall art,STREET ART,
+CBR-ARTW1569,Canberra,149.0913303,-35.33986641,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW515,Canberra,149.1010365,-35.29229673,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW211,Canberra,149.1301156,-35.33051983,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1567,Canberra,149.1018856,-35.37565596,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW438,Canberra,149.0712187,-35.38562839,,,Sculpture / object,SCULPTURE,CONCRETE
+CBR-ARTW594,Canberra,149.1441766,-35.16022182,2014,2010s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW647,Canberra,149.0928945,-35.22778499,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW617,Canberra,149.1217672,-35.29895354,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW245,Canberra,149.1285181,-35.40811388,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW1610,Canberra,148.9294022,-35.44320403,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW510,Canberra,149.0951077,-35.29873209,2010,2010s,Other / unclassified,FEATURE,METAL
+CBR-ARTW1525,Canberra,149.039503,-35.27557721,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW767,Canberra,149.1225788,-35.14772774,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW563,Canberra,149.1187224,-35.2574053,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW626,Canberra,149.0376752,-35.31749453,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW232,Canberra,149.1601304,-35.19932704,,,Other / unclassified,FEATURE,TIMBER AND METAL
+CBR-ARTW164,Canberra,149.0961059,-35.35205679,,,Other / unclassified,FEATURE,
+CBR-ARTW1542,Canberra,149.068061,-35.41504769,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW701,Canberra,149.0303233,-35.31166123,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1559,Canberra,149.0204543,-35.22214889,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW645,Canberra,149.0914313,-35.22932493,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW754,Canberra,149.1266515,-35.28997715,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1551,Canberra,149.1484171,-35.24841768,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW584,Canberra,149.150335,-35.14914266,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW753,Canberra,149.1264904,-35.29131186,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW48,Canberra,149.1325347,-35.24487038,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW244,Canberra,149.1288716,-35.40804323,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1593,Canberra,149.1540364,-35.33298858,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW662,Canberra,149.1205464,-35.15559078,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW704,Canberra,149.028115,-35.31141898,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW611,Canberra,149.1213338,-35.29904143,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW69,Canberra,149.1221822,-35.26445339,,,Sculpture / object,SCULPTURE,
+CBR-ARTW457,Canberra,149.1459754,-35.16546197,2010,2010s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW522,Canberra,149.0630972,-35.3917374,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW575,Canberra,149.0908975,-35.29137746,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW514,Canberra,149.1007222,-35.29248391,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW1533,Canberra,149.0375,-35.31388922,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW474,Canberra,149.1381194,-35.16652453,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW523,Canberra,149.0633115,-35.39178533,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW495,Canberra,149.0459149,-35.35732438,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW613,Canberra,149.1215627,-35.29906965,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1512,Canberra,149.0395247,-35.27557347,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1511,Canberra,149.0398606,-35.27545792,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1501,Canberra,149.029924,-35.30302757,,,Sculpture / object,SCULPTURE,FIBREGLASS
+CBR-ARTW463,Canberra,149.0369786,-35.34791196,,,Other / unclassified,FEATURE,
+CBR-ARTW547,Canberra,149.1491601,-35.15988197,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW64,Canberra,149.0702078,-35.23962623,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW115,Canberra,149.1347687,-35.17606002,,,Sculpture / object,SCULPTURE,
+CBR-ARTW55,Canberra,149.1243234,-35.27442903,,,Mural / wall art,STREET ART,
+CBR-ARTW46,Canberra,149.0691689,-35.35749646,,,Mural / wall art,STREET ART,
+CBR-ARTW628,Canberra,149.1453666,-35.31045306,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW119,Canberra,149.1348772,-35.17595894,,,Sculpture / object,SCULPTURE,
+CBR-ARTW150,Canberra,149.0440678,-35.3361646,,,Mural / wall art,STREET ART,METAL
+CBR-ARTW759,Canberra,149.1222637,-35.14764651,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW471,Canberra,149.0552766,-35.33690124,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW466,Canberra,149.0382805,-35.34781319,,,Other / unclassified,FEATURE,
+CBR-ARTW661,Canberra,149.1210428,-35.15530671,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW121,Canberra,149.1346408,-35.17579184,,,Sculpture / object,SCULPTURE,
+CBR-ARTW206,Canberra,149.0187411,-35.22195312,1996,1990s,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW196,Canberra,149.0196853,-35.21509385,,,Mural / wall art,LEGAL GRAFFITI SITES,
+CBR-ARTW746,Canberra,149.126595,-35.29003722,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW581,Canberra,149.1502732,-35.14916684,,,Other / unclassified,TILED (LARGE TILES),TILE
+CBR-ARTW25,Canberra,149.1111448,-35.22217956,,,Mural / wall art,LEGAL GRAFFITI SITES,
+CBR-ARTW755,Canberra,149.1267566,-35.29027916,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW447,Canberra,149.0620852,-35.25911794,,,Other / unclassified,FEATURE,STONE
+CBR-ARTW573,Canberra,149.0908971,-35.29138714,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW533,Canberra,149.1487558,-35.1630216,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW1601,Canberra,148.929673,-35.44353119,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW705,Canberra,149.028181,-35.31136706,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1522,Canberra,149.0395227,-35.27554376,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW441,Canberra,149.0713574,-35.3855185,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW737,Canberra,149.1265324,-35.29050022,,,Other / unclassified,FEATURE,CONCRETE
+CBR-ARTW640,Canberra,149.0849892,-35.22792419,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW519,Canberra,149.1014161,-35.29232263,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW1584,Canberra,149.1346391,-35.27810927,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1568,Canberra,149.018773,-35.2220239,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW756,Canberra,149.1267281,-35.29060502,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1619,Canberra,148.9087443,-35.46180049,,,Other / unclassified,FEATURE,PAINT
+CBR-ARTW1616,Canberra,148.9084379,-35.46211956,,,Other / unclassified,FEATURE,STONE
+CBR-ARTW1621,Canberra,148.9049867,-35.46628876,,,Other / unclassified,FEATURE,METAL
+CBR-ARTW1620,Canberra,148.9072368,-35.4648265,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1618,Canberra,148.9067001,-35.46604796,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1622,Canberra,148.9048582,-35.46571726,,,Other / unclassified,FEATURE,PLASTIC
+CBR-ARTW1623,Canberra,148.9064568,-35.46672962,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1626,Canberra,148.9067175,-35.4660354,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1617,Canberra,148.908509,-35.46322441,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1624,Canberra,148.9059371,-35.46694652,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1638,Canberra,149.0024224,-35.20265314,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1636,Canberra,149.0024592,-35.20266921,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1630,Canberra,149.0023332,-35.2028583,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1629,Canberra,149.0022399,-35.20288539,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1631,Canberra,149.0023717,-35.20284311,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1635,Canberra,149.0024633,-35.20262182,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1633,Canberra,149.0023807,-35.20263215,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1632,Canberra,149.0023807,-35.20264092,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1628,Canberra,149.002251,-35.20297226,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1634,Canberra,149.002414,-35.20261163,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1627,Canberra,149.0023907,-35.20290863,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1637,Canberra,149.0024164,-35.20267568,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1657,Canberra,149.1366651,-35.25121888,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1669,Canberra,149.1366819,-35.24976605,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1653,Canberra,149.1366912,-35.24961812,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1658,Canberra,149.1366064,-35.25117838,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1661,Canberra,149.1364792,-35.25115929,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1670,Canberra,149.1366492,-35.24977909,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1648,Canberra,149.1369917,-35.24977489,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1652,Canberra,149.1366865,-35.24962315,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1659,Canberra,149.136608,-35.25117217,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1654,Canberra,149.1364105,-35.25119494,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1655,Canberra,149.1366804,-35.25123025,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1646,Canberra,149.1366944,-35.24981561,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1641,Canberra,149.1368069,-35.24987251,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1651,Canberra,149.1366789,-35.24962857,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1668,Canberra,149.1370083,-35.24963098,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1649,Canberra,149.136996,-35.24977073,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1640,Canberra,149.1364847,-35.25115127,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1644,Canberra,149.1364287,-35.25119419,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1642,Canberra,149.1368066,-35.24986947,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1656,Canberra,149.1366724,-35.2512238,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1647,Canberra,149.1369952,-35.24977929,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1660,Canberra,149.1366034,-35.25116681,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1643,Canberra,149.136799,-35.24986621,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1671,Canberra,149.1369799,-35.24964166,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1650,Canberra,149.1364257,-35.25118805,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1662,Canberra,149.1364792,-35.25115404,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1645,Canberra,149.1366847,-35.24981812,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1639,Canberra,149.1366806,-35.24982261,,,Sculpture / object,SCULPTURE,STONE
+CBR-ARTW1672,Canberra,149.0583742,-35.24350649,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1673,Canberra,149.1604015,-35.22999206,,,Sculpture / object,SCULPTURE,TIMBER
+CBR-ARTW1678,Canberra,149.1271296,-35.15054627,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1679,Canberra,149.1263465,-35.15056924,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1677,Canberra,149.1263108,-35.15059748,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1680,Canberra,149.129673,-35.285639,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1681,Canberra,149.067884,-35.41215162,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1682,Canberra,149.0333637,-35.20490312,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1683,Canberra,149.0333428,-35.2049373,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1684,Canberra,149.1033662,-35.23422478,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW1685,Canberra,149.1034088,-35.23421481,,,Sculpture / object,SCULPTURE,STAINLESS STEEL
+CBR-ARTW1686,Canberra,149.0546992,-35.22671337,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1688,Canberra,149.1320211,-35.27101968,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1687,Canberra,149.1332678,-35.27157818,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1689,Canberra,149.1314736,-35.27406078,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1691,Canberra,149.1084032,-35.2289908,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1694,Canberra,149.01752,-35.30309848,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1695,Canberra,149.1251227,-35.26820767,,,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1693,Canberra,149.0176167,-35.30299681,,,Mural / wall art,PAINTING MURAL,PAINT
+CBR-ARTW1696,Canberra,149.1392535,-35.18966666,2025,2020s,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1698,Canberra,149.0930198,-35.45645572,2025,2020s,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1701,Canberra,149.0739147,-35.20873933,2025,2020s,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1700,Canberra,149.0734068,-35.20880519,2025,2020s,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1699,Canberra,149.0598759,-35.24812097,2025,2020s,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1697,Canberra,149.0926956,-35.45636775,2025,2020s,Mural / wall art,STREET ART,PAINT
+CBR-ARTW1705,Canberra,149.0385347,-35.31375872,,,Other / unclassified,VINYL DECORATIVE WRAP,
+CBR-ARTW1706,Canberra,149.0736647,-35.20865773,,,Other / unclassified,VINYL DECORATIVE WRAP,
+CBR-ARTW1707,Canberra,149.1256263,-35.14764139,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1708,Canberra,149.1258758,-35.14735681,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1709,Canberra,149.1260646,-35.14753327,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1710,Canberra,149.1251782,-35.14777458,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1711,Canberra,149.0236861,-35.29300779,,,Sculpture / object,SCULPTURE,
+CBR-ARTW1712,Canberra,149.0201602,-35.19407506,,,Other / unclassified,VINYL DECORATIVE WRAP,
+CBR-ARTW1714,Canberra,149.0033516,-35.21757253,,,Sculpture / object,SCULPTURE,METAL
+CBR-ARTW1715,Canberra,149.0033542,-35.21759167,,,Sculpture / object,SCULPTURE,METAL
