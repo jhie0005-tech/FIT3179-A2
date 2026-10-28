@@ -23,4 +23,10 @@ h1 { margin: 0.25rem 0 0.75rem; font-family: Georgia, serif; font-size: clamp(2.
 h2 { font-family: Georgia, serif; font-size: 1.75rem; }
 .intro { color: var(--muted); font-size: 1.1rem; }
 section { margin-top: 3rem; }
+.story-break { max-width: 680px; padding-top: 3.5rem; border-top: 1px solid #cfc6ba; }
+.story-break h2 { margin: 0.2rem 0 0.5rem; }
+.story-break p:last-child { margin-bottom: 0; color: var(--muted); }
+.section-number { margin: 0; color: var(--accent); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; }
+.map-note { margin: 1rem 0; padding: 0.85rem 1rem; color: #394650; background: #eee8de; border-left: 3px solid var(--accent); font-size: 0.95rem; }
+.next-section { margin-bottom: 1rem; }
 .chart { overflow-x: auto; background: #fffdf9; border: 1px solid #ded8cf; padding: 1rem; }

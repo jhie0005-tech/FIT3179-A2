@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Public artworks in Canberra, coloured by the ACT source classification.",
+  "width": 720,
+  "height": 540,
+  "projection": {
+    "type": "mercator",
+    "center": [149.08, -35.32],
+    "scale": 80000
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ece7df",
+        "stroke": "#a89f93",
+        "strokeWidth": 0.7
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "classificationSelection",
+          "select": {
+            "type": "point",
+            "fields": ["classification"]
+          },
+          "bind": "legend"
+        }
+      ],
+      "data": {
+        "url": "../Data/processed/act_artworks_clean.csv"
+      },
+      "transform": [
+        { "calculate": "toNumber(datum.latitude)", "as": "map_latitude" },
+        { "calculate": "toNumber(datum.longtitude)", "as": "map_longitude" },
+        {
+          "filter": "isValid(datum.map_longitude) && isValid(datum.map_latitude)"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.55
+      },
+      "encoding": {
+        "longitude": { "field": "map_longitude", "type": "quantitative" },
+        "latitude": { "field": "map_latitude", "type": "quantitative" },
+        "size": { "value": 62 },
+        "color": {
+          "field": "classification",
+          "type": "nominal",
+          "title": "ACT classification",
+          "scale": { "scheme": "tableau20" },
+          "legend": { "orient": "right", "symbolSize": 90 }
+        },
+        "opacity": {
+          "condition": { "param": "classificationSelection", "value": 0.9 },
+          "value": 0.13
+        },
+        "tooltip": [
+          { "field": "title", "type": "nominal", "title": "Artwork" },
+          { "field": "artist", "type": "nominal", "title": "Artist" },
+          { "field": "SUBURB", "type": "nominal", "title": "Suburb" },
+          { "field": "classification", "type": "nominal", "title": "Classification" },
+          { "field": "MATERIAL", "type": "nominal", "title": "Material" },
+          { "field": "PURPOSE", "type": "nominal", "title": "Purpose" },
+          { "field": "COMMISSIONED_DATE", "type": "nominal", "title": "Commissioned" },
+          { "field": "DESCRIPTION", "type": "nominal", "title": "Description" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "#fffdf9",
+    "view": { "stroke": null },
+    "legend": {
+      "labelFont": "Arial",
+      "labelFontSize": 11,
+      "titleFont": "Arial",
+      "titleFontSize": 12
+    }
+  }
+}

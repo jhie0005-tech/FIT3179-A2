@@ -10,31 +10,69 @@
     <main>
       <header class="hero">
         <p class="eyebrow">Australian public art collections</p>
-        <h1>How art lives in Australian public collections</h1>
-        <p class="intro">Public galleries form a nationwide network. The following maps examine this broader context before turning to artworks in Brisbane’s public spaces.</p>
+        <h1>From galleries to the streets: where Australian art is held</h1>
+        <p class="intro">Public art is encountered in two ways: inside galleries and in the shared spaces of a city. This story begins with the national gallery network, then moves into the distinct collections of Brisbane and Melbourne.</p>
       </header>
+
+      <section class="story-break" aria-labelledby="national-heading">
+        <p class="section-number">Part 1</p>
+        <h2 id="national-heading">The national collection network</h2>
+        <p>Before looking closely at individual artworks, start with the institutions that make art publicly accessible across Australia.</p>
+      </section>
 
       <section aria-labelledby="gallery-map-heading">
         <h2 id="gallery-map-heading">A national network of public galleries</h2>
-        <p>Each dot marks a gallery in the available dataset. Galleries are concentrated along Australia’s populated east and south-east coasts, setting the national context for the city collections explored below.</p>
+        <p>Each dot marks one gallery with a usable location in the available dataset. The pattern follows Australia’s populated east and south-east coasts, establishing the national context for the city collections below.</p>
+        <aside class="map-note">
+          <strong>How to read it:</strong> Hover over a dot to see the gallery and its address. Dense groups of dots indicate many nearby public art venues.
+        </aside>
         <div id="gallery-map" class="chart" aria-label="Map of galleries across Australia"></div>
       </section>
 
       <section aria-labelledby="state-map-heading">
         <h2 id="state-map-heading">Gallery coverage varies by state</h2>
-        <p>Circle size shows the number of galleries with usable locations in each state. The circles sit at state and territory capitals so the counts can be compared without overlapping individual gallery points.</p>
+        <p>The first map shows individual places. This view changes the question: which states and territories have the largest number of mappable galleries?</p>
+        <aside class="map-note">
+          <strong>How to read it:</strong> Larger circles mean more galleries with usable coordinates. Circles are placed at capitals for comparison; they do not show the exact location of every gallery.
+        </aside>
         <div id="state-map" class="chart" aria-label="Proportional-symbol map of gallery counts by Australian state"></div>
+      </section>
+
+      <section class="story-break" aria-labelledby="city-heading">
+        <p class="section-number">Part 2</p>
+        <h2 id="city-heading">When art becomes part of the city</h2>
+        <p>Gallery maps show where collections can be visited. Public-art records reveal how artworks are distributed across streets, parks and civic precincts.</p>
       </section>
 
       <section aria-labelledby="brisbane-map-heading">
         <h2 id="brisbane-map-heading">Art in Brisbane’s public spaces</h2>
+        <p>Brisbane City Council’s collection places artworks throughout the city. Grouping materials makes its physical character visible, from stone and metal works to newer synthetic or light-based pieces.</p>
+        <aside class="map-note">
+          <strong>How to read it:</strong> Colour shows the main material group. Click a legend item to highlight it. Where several artworks share one recorded location, the map gently separates their points so each work remains visible.
+        </aside>
         <div id="brisbane-map" class="chart" aria-label="Map of public artworks in Brisbane"></div>
       </section>
 
       <section aria-labelledby="melbourne-map-heading">
         <h2 id="melbourne-map-heading">Melbourne’s collection is led by sculpture</h2>
-        <p>Each point represents a public artwork. The classification colours show that sculptures make up most of the mappable collection, while memorials form a smaller, distinct group.</p>
+        <p>Melbourne’s dataset describes artworks by classification rather than material. Sculpture is the largest recorded group, while memorials, illustrations and other forms occupy a smaller share of the mapped collection.</p>
+        <aside class="map-note">
+          <strong>How to read it:</strong> Each point is an artwork and property boundaries provide local context. Click a classification in the legend to focus on it. These categories are Melbourne’s source classifications, so they should not be read as a direct material comparison with Brisbane.</aside>
         <div id="melbourne-map" class="chart" aria-label="Map of public artworks in Melbourne"></div>
+      </section>
+
+      <section aria-labelledby="canberra-map-heading">
+        <h2 id="canberra-map-heading">Canberra’s collection mixes sculpture with civic features</h2>
+        <p>In the ACT records, sculpture is the largest source classification, followed by features. Street art, murals and tiled works add a different visual language across Canberra’s suburbs. These are the ACT’s own categories, so they provide a local reading rather than a direct comparison with Brisbane’s materials or Melbourne’s classifications.</p>
+        <aside class="map-note">
+          <strong>How to read it:</strong> Each point is one ACT public-art record. Colour shows its source classification; click a legend item to bring that group forward. Hover over a point for its suburb, material, purpose and available commissioning detail.</aside>
+        <div id="canberra-map" class="chart" aria-label="Map of public artworks in Canberra"></div>
+      </section>
+
+      <section class="story-break next-section" aria-labelledby="next-heading">
+        <p class="section-number">To continue</p>
+        <h2 id="next-heading">What comes next?</h2>
+        <p>The next maps will compare how public-art categories, locations and installation periods change across Brisbane, Melbourne and Canberra. The current sequence establishes the national context and three distinct city collections.</p>
       </section>
     </main>
 
