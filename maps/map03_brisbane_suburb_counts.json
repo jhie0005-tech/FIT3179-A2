@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Number of recorded Brisbane public artworks by suburb.",
+  "width": 720,
+  "height": 540,
+  "projection": {"type": "mercator", "center": [153.025, -27.47], "scale": 105000},
+  "data": {"url": "../Data/brisbane-suburbs.geojson", "format": {"type": "json", "property": "features"}},
+  "transform": [
+    {"calculate": "upper(datum.properties.SUBURB_NAME)", "as": "suburb"},
+    {"lookup": "suburb", "from": {"data": {"values": [
+      {"suburb":"ACACIA RIDGE","artwork_count":1},{"suburb":"ALDERLEY","artwork_count":3},{"suburb":"ASHGROVE","artwork_count":2},{"suburb":"BANYO","artwork_count":1},{"suburb":"BOONDALL","artwork_count":2},{"suburb":"BOWEN HILLS","artwork_count":2},{"suburb":"BRISBANE CITY","artwork_count":43},{"suburb":"BULIMBA","artwork_count":1},{"suburb":"CAMP HILL","artwork_count":1},{"suburb":"CANNON HILL","artwork_count":1},{"suburb":"COORPAROO","artwork_count":1},{"suburb":"CORINDA","artwork_count":1},{"suburb":"DARRA","artwork_count":1},{"suburb":"FORTITUDE VALLEY","artwork_count":10},{"suburb":"GEEBUNG","artwork_count":2},{"suburb":"GRACEVILLE","artwork_count":3},{"suburb":"GRANGE","artwork_count":1},{"suburb":"GREENSLOPES","artwork_count":1},{"suburb":"HAMILTON","artwork_count":4},{"suburb":"HAWTHORNE","artwork_count":1},{"suburb":"KANGAROO POINT","artwork_count":11},{"suburb":"KENMORE","artwork_count":1},{"suburb":"MILTON","artwork_count":1},{"suburb":"MITCHELTON","artwork_count":2},{"suburb":"MOOROOKA","artwork_count":1},{"suburb":"MOUNT COOT-THA","artwork_count":33},{"suburb":"MOUNT GRAVATT","artwork_count":1},{"suburb":"MOUNT GRAVATT EAST","artwork_count":1},{"suburb":"NEW FARM","artwork_count":7},{"suburb":"NEWSTEAD","artwork_count":1},{"suburb":"NUNDAH","artwork_count":1},{"suburb":"OXLEY","artwork_count":3},{"suburb":"PADDINGTON","artwork_count":18},{"suburb":"SANDGATE","artwork_count":5},{"suburb":"SEVENTEEN MILE ROCKS","artwork_count":3},{"suburb":"SHORNCLIFFE","artwork_count":2},{"suburb":"SOUTH BRISBANE","artwork_count":8},{"suburb":"SPRING HILL","artwork_count":5},{"suburb":"ST LUCIA","artwork_count":1},{"suburb":"STONES CORNER","artwork_count":6},{"suburb":"TENERIFFE","artwork_count":1},{"suburb":"WOOLLOONGABBA","artwork_count":2},{"suburb":"WYNNUM","artwork_count":2}
+    ]}, "key": "suburb", "fields": ["artwork_count"]}},
+    {"calculate": "isValid(datum.artwork_count) ? datum.artwork_count : 0", "as": "artwork_count"}
+  ],
+  "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.7},
+  "encoding": {
+    "color": {"field": "artwork_count", "type": "quantitative", "title": "Recorded artworks", "scale": {"scheme": "blues", "domain": [0, 43]}, "legend": {"gradientLength": 180}},
+    "tooltip": [{"field": "properties.SUBURB_NAME", "type": "nominal", "title": "Suburb"},{"field": "artwork_count", "type": "quantitative", "title": "Recorded artworks"}]
+  },
+  "config": {"background": "#fffdf9", "view": {"stroke": null}, "legend": {"labelFont": "Arial", "labelFontSize": 11, "titleFont": "Arial", "titleFontSize": 12}}
+}

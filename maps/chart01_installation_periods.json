@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Recorded installation periods for Brisbane and Melbourne public artworks.",
+  "hconcat": [
+    {
+      "title": {"text": "Brisbane", "anchor": "start", "fontSize": 15, "font": "Georgia"},
+      "data": {"url": "../Data/public-art-brisbane-clean.csv"},
+      "transform": [
+        {"filter": "isFinite(toNumber(datum.Installed))"},
+        {"calculate": "toNumber(datum.Installed) < 1980 ? 'Before 1980' : toNumber(datum.Installed) < 1990 ? '1980s' : toNumber(datum.Installed) < 2000 ? '1990s' : toNumber(datum.Installed) < 2010 ? '2000s' : toNumber(datum.Installed) < 2020 ? '2010s' : '2020s'", "as": "period"}
+      ],
+      "width": 330,
+      "height": 230,
+      "mark": {"type": "line", "color": "#2A9D8F", "strokeWidth": 2.5, "point": {"filled": true, "size": 70, "color": "#2A9D8F"}},
+      "encoding": {
+        "x": {"field": "period", "type": "ordinal", "sort": ["Before 1980", "1980s", "1990s", "2000s", "2010s", "2020s"], "title": null, "axis": {"labelAngle": -35, "labelFontSize": 11}},
+        "y": {"aggregate": "count", "type": "quantitative", "title": "Recorded artworks", "scale": {"domain": [0, 80]}, "axis": {"tickCount": 5}},
+        "tooltip": [{"field": "period", "type": "nominal", "title": "Installation period"},{"aggregate": "count", "type": "quantitative", "title": "Recorded artworks"}]
+      }
+    },
+    {
+      "title": {"text": "Melbourne", "anchor": "start", "fontSize": 15, "font": "Georgia"},
+      "data": {"url": "../Data/processed/melbourne_artworks_clean.csv"},
+      "transform": [
+        {"filter": "isFinite(toNumber(datum.installed_year))"},
+        {"calculate": "toNumber(datum.installed_year) < 1980 ? 'Before 1980' : toNumber(datum.installed_year) < 1990 ? '1980s' : toNumber(datum.installed_year) < 2000 ? '1990s' : toNumber(datum.installed_year) < 2010 ? '2000s' : toNumber(datum.installed_year) < 2020 ? '2010s' : '2020s'", "as": "period"}
+      ],
+      "width": 330,
+      "height": 230,
+      "mark": {"type": "line", "color": "#C8553D", "strokeWidth": 2.5, "point": {"filled": true, "size": 70, "color": "#C8553D"}},
+      "encoding": {
+        "x": {"field": "period", "type": "ordinal", "sort": ["Before 1980", "1980s", "1990s", "2000s", "2010s", "2020s"], "title": null, "axis": {"labelAngle": -35, "labelFontSize": 11}},
+        "y": {"aggregate": "count", "type": "quantitative", "title": null, "scale": {"domain": [0, 80]}, "axis": {"labels": false, "ticks": false, "domain": false}},
+        "tooltip": [{"field": "period", "type": "nominal", "title": "Installation period"},{"aggregate": "count", "type": "quantitative", "title": "Recorded artworks"}]
+      }
+    }
+  ],
+  "spacing": 28,
+  "config": {"background": "#fffdf9", "view": {"stroke": null}, "axis": {"labelFont": "Arial", "titleFont": "Arial", "titleFontSize": 12}}
+}
