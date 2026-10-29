@@ -72,8 +72,11 @@
           "field": "classification",
           "type": "nominal",
           "title": "Classification",
-          "scale": { "scheme": "tableau20" },
-          "legend": { "orient": "right", "symbolSize": 95 }
+          "scale": {
+            "domain": ["Sculpture", "Memorials", "Illustrations", "Indigenous", "Horology", "Ceramic", "Unknown"],
+            "range": ["#1B9E77", "#E7298A", "#7570B3", "#66A61E", "#A6761D", "#E6AB02", "#666666"]
+          },
+          "legend": { "orient": "bottom", "direction": "horizontal", "columns": 3, "symbolSize": 95 }
         },
         "opacity": {
           "condition": { "param": "classificationSelection", "value": 0.9 },

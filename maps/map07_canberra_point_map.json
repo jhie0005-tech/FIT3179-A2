@@ -70,8 +70,11 @@
           "field": "classification",
           "type": "nominal",
           "title": "ACT classification",
-          "scale": { "scheme": "tableau20" },
-          "legend": { "orient": "right", "symbolSize": 90 }
+          "scale": {
+            "domain": ["SCULPTURE", "FEATURE", "STREET ART", "PAINTING MURAL", "TILED (LARGE TILES)", "MOSAICED SURFACE (SMALL TILES)", "VINYL DECORATIVE WRAP", "LEGAL GRAFFITI SITES"],
+            "range": ["#1B9E77", "#A6761D", "#7570B3", "#7570B3", "#E6AB02", "#E6AB02", "#E7298A", "#7570B3"]
+          },
+          "legend": { "orient": "bottom", "direction": "horizontal", "columns": 4, "symbolSize": 90 }
         },
         "opacity": {
           "condition": { "param": "classificationSelection", "value": 0.9 },

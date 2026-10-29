@@ -14,7 +14,7 @@
   ],
   "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.7},
   "encoding": {
-    "color": {"field": "artwork_count", "type": "quantitative", "title": "Recorded artworks", "scale": {"scheme": "blues", "domain": [0, 43]}, "legend": {"gradientLength": 180}},
+    "color": {"field": "artwork_count", "type": "quantitative", "title": "Recorded artworks", "scale": {"scheme": "blues", "domain": [0, 43]}, "legend": {"orient": "bottom", "gradientLength": 180}},
     "tooltip": [{"field": "properties.SUBURB_NAME", "type": "nominal", "title": "Suburb"},{"field": "artwork_count", "type": "quantitative", "title": "Recorded artworks"}]
   },
   "config": {"background": "#fffdf9", "view": {"stroke": null}, "legend": {"labelFont": "Arial", "labelFontSize": 11, "titleFont": "Arial", "titleFontSize": 12}}

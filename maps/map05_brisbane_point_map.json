@@ -57,7 +57,7 @@
           "filter": "isValid(datum.Longitude) && isValid(datum.Latitude)"
         },
         {
-          "calculate": "indexof(lower(datum['Main Material'] || ''), 'sandstone') >= 0 || indexof(lower(datum['Main Material'] || ''), 'granite') >= 0 || indexof(lower(datum['Main Material'] || ''), 'marble') >= 0 || indexof(lower(datum['Main Material'] || ''), 'stone') >= 0 ? 'Stone' : indexof(lower(datum['Main Material'] || ''), 'steel') >= 0 || indexof(lower(datum['Main Material'] || ''), 'metal') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminium') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminum') >= 0 || indexof(lower(datum['Main Material'] || ''), 'copper') >= 0 || indexof(lower(datum['Main Material'] || ''), 'brass') >= 0 ? 'Metal' : indexof(lower(datum['Main Material'] || ''), 'concrete') >= 0 || indexof(lower(datum['Main Material'] || ''), 'cement') >= 0 ? 'Concrete' : indexof(lower(datum['Main Material'] || ''), 'wood') >= 0 || indexof(lower(datum['Main Material'] || ''), 'timber') >= 0 ? 'Wood' : indexof(lower(datum['Main Material'] || ''), 'ceramic') >= 0 ? 'Ceramic' : indexof(lower(datum['Main Material'] || ''), 'fibreglass') >= 0 || indexof(lower(datum['Main Material'] || ''), 'epoxy resin') >= 0 ? 'Synthetic / resin' : indexof(lower(datum['Main Material'] || ''), 'paint') >= 0 || indexof(lower(datum['Main Material'] || ''), 'neon') >= 0 ? 'Paint / light' : 'Other / unknown'",
+          "calculate": "indexof(lower(datum['Main Material'] || ''), 'sandstone') >= 0 || indexof(lower(datum['Main Material'] || ''), 'granite') >= 0 || indexof(lower(datum['Main Material'] || ''), 'marble') >= 0 || indexof(lower(datum['Main Material'] || ''), 'stone') >= 0 || indexof(lower(datum['Main Material'] || ''), 'concrete') >= 0 || indexof(lower(datum['Main Material'] || ''), 'cement') >= 0 ? 'Stone / concrete / brick' : indexof(lower(datum['Main Material'] || ''), 'steel') >= 0 || indexof(lower(datum['Main Material'] || ''), 'metal') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminium') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminum') >= 0 || indexof(lower(datum['Main Material'] || ''), 'copper') >= 0 || indexof(lower(datum['Main Material'] || ''), 'brass') >= 0 ? 'Metal' : indexof(lower(datum['Main Material'] || ''), 'wood') >= 0 || indexof(lower(datum['Main Material'] || ''), 'timber') >= 0 ? 'Timber' : indexof(lower(datum['Main Material'] || ''), 'ceramic') >= 0 ? 'Tile / ceramic' : indexof(lower(datum['Main Material'] || ''), 'paint') >= 0 || indexof(lower(datum['Main Material'] || ''), 'neon') >= 0 ? 'Paint' : indexof(lower(datum['Main Material'] || ''), 'fibreglass') >= 0 || indexof(lower(datum['Main Material'] || ''), 'epoxy resin') >= 0 ? 'Other materials' : 'Not recorded'",
           "as": "material_group"
         },
         {
@@ -114,28 +114,30 @@
           "title": "Material group",
           "scale": {
             "domain": [
-              "Stone",
               "Metal",
-              "Concrete",
-              "Wood",
-              "Ceramic",
-              "Synthetic / resin",
-              "Paint / light",
-              "Other / unknown"
+              "Stone / concrete / brick",
+              "Timber",
+              "Paint",
+              "Tile / ceramic",
+              "Mixed materials",
+              "Other materials",
+              "Not recorded"
             ],
             "range": [
-              "#C9A66B",
-              "#65737E",
-              "#9A9A9A",
-              "#8B5A2B",
-              "#6CA6A5",
-              "#8A6FA8",
-              "#D05A7B",
-              "#B8B1A8"
+              "#0072B2",
+              "#8C8C8C",
+              "#A65628",
+              "#D55E00",
+              "#56B4E9",
+              "#CC79A7",
+              "#E69F00",
+              "#D3D3D3"
             ]
           },
           "legend": {
-            "orient": "right",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "columns": 4,
             "symbolSize": 95
           }
         },

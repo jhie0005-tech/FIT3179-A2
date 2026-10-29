@@ -73,7 +73,7 @@
           "type": "quantitative",
           "title": "Mappable galleries",
           "scale": { "range": [250, 4000] },
-          "legend": { "orient": "right" }
+          "legend": { "orient": "bottom", "direction": "horizontal" }
         },
         "tooltip": [
           { "field": "state_name", "type": "nominal", "title": "State or territory" },

@@ -71,7 +71,7 @@
               "scale": {
                 "type": "threshold",
                 "domain": [1, 2, 4, 8],
-                "range": ["#fde8c8", "#f8b878", "#e8823a", "#c24e1a", "#7f2704"]
+                "range": ["#440154", "#3B528B", "#21918C", "#5EC962", "#FDE725"]
               },
               "legend": { "title": "Artworks per ~500 m square" }
             },
@@ -156,7 +156,7 @@
               "scale": {
                 "type": "threshold",
                 "domain": [1, 2, 4, 8],
-                "range": ["#fde8c8", "#f8b878", "#e8823a", "#c24e1a", "#7f2704"]
+                "range": ["#440154", "#3B528B", "#21918C", "#5EC962", "#FDE725"]
               },
               "legend": null
             },
@@ -229,7 +229,7 @@
               "scale": {
                 "type": "threshold",
                 "domain": [1, 2, 4, 8],
-                "range": ["#fde8c8", "#f8b878", "#e8823a", "#c24e1a", "#7f2704"]
+                "range": ["#440154", "#3B528B", "#21918C", "#5EC962", "#FDE725"]
               },
               "legend": null
             },
