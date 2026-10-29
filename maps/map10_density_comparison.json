@@ -37,7 +37,7 @@
       "layer": [
         {
         "data": {
-        "url": "../Data/brisbane-suburbs.geojson",
+        "url": "/Data/brisbane-suburbs.geojson",
         "format": {"type": "json", "property": "features"}
         },
         "mark": {
