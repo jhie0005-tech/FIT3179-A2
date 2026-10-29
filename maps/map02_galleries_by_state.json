@@ -8,6 +8,13 @@
     "center": [134, -27],
     "scale": 890
   },
+  "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
   "layer": [
      {
       "data": {
