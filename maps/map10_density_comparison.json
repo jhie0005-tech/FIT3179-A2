@@ -1,0 +1,260 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Where public art clusters in each city",
+    "subtitle": "Artworks counted in squares of about 1 km by 1 km. All three panels use the same ground scale.",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12
+  },
+  "data": {
+    "url": "../Data/processed/public_art_comparison.csv",
+    "format": {
+      "type": "csv",
+      "parse": { "longitude": "number", "latitude": "number" }
+    }
+  },
+  "config": {
+    "view": { "stroke": "#c9c9c9" },
+    "legend": {
+      "orient": "bottom",
+      "titleFontSize": 12,
+      "labelFontSize": 11,
+      "direction": "horizontal"
+    }
+  },
+  "hconcat": [
+    {
+      "title": { "text": "Brisbane", "anchor": "start", "fontSize": 13 },
+      "width": 330,
+      "height": 330,
+      "projection": {
+        "type": "mercator",
+        "center": [153.025, -27.47],
+        "scale": 96080,
+        "translate": [165, 165]
+      },
+      "layer": [
+        {
+        "data": {
+        "url": "../Data/brisbane-suburbs.geojson",
+        "format": {"type": "json", "property": "features"}
+        },
+        "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#b8aea0",
+        "strokeWidth": 0.3
+        }
+            },
+        {
+          "transform": [
+            { "filter": "datum.city === 'Brisbane' && isValid(datum.longitude) && isValid(datum.latitude)" },
+            { "calculate": "floor(datum.longitude / 0.01127) * 0.01127", "as": "lon0" },
+            { "calculate": "datum.lon0 + 0.01127", "as": "lon1" },
+            { "calculate": "floor(datum.latitude / 0.01) * 0.01", "as": "lat0" },
+            { "calculate": "datum.lat0 + 0.01", "as": "lat1" },
+            {
+              "aggregate": [{ "op": "count", "as": "n" }],
+              "groupby": ["lon0", "lon1", "lat0", "lat1"]
+            }
+          ],
+          "mark": { "type": "rect", "stroke": "#ffffff", "strokeWidth": 0.5 },
+          "encoding": {
+            "longitude": { "field": "lon0", "type": "quantitative" },
+            "longitude2": { "field": "lon1" },
+            "latitude": { "field": "lat0", "type": "quantitative" },
+            "latitude2": { "field": "lat1" },
+            "color": {
+              "field": "n",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain": [2, 4, 8, 16],
+                "range": ["#fde8c8", "#f8b878", "#e8823a", "#c24e1a", "#7f2704"]
+              },
+              "legend": { "title": "Artworks per ~1 km square" }
+            },
+            "tooltip": [{ "field": "n", "type": "quantitative", "title": "Artworks in this square" }]
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": { "type": "rule", "stroke": "#333333", "strokeWidth": 2 },
+          "encoding": {
+            "x": { "value": 18 },
+            "x2": { "value": 103 },
+            "y": { "value": 312 }
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": { "type": "text", "align": "left", "baseline": "bottom", "fontSize": 11, "color": "#333333", "text": "5 km" },
+          "encoding": {
+            "x": { "value": 18 },
+            "y": { "value": 306 }
+          }
+        }
+      ]
+    },
+    {
+      "title": { "text": "Melbourne", "anchor": "start", "fontSize": 13 },
+      "width": 330,
+      "height": 330,
+      "projection": {
+        "type": "mercator",
+        "center": [144.96, -37.81],
+        "scale": 171550,
+        "translate": [165, 165]
+      },
+      "layer": [
+        
+        {
+        "data": {
+        "url": "../Data/melbourne-property-boundaries.geojson",
+        "format": {"type": "json", "property": "features"}
+        },
+        "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#b8aea0",
+        "strokeWidth": 0.3
+        }
+            },
+        {
+          "transform": [
+                        {
+              "filter": "datum.city === 'Melbourne' && isValid(datum.longitude) && isValid(datum.latitude)"
+            },
+            {"calculate": "floor(datum.longitude / 0.00633) * 0.00633",
+              "as": "lon0"
+            },
+            {"calculate": "datum.lon0 + 0.00633",
+              "as": "lon1"
+            },
+            {"calculate": "floor(datum.latitude / 0.005) * 0.005",
+              "as": "lat0"
+            },
+            {"calculate": "datum.lat0 + 0.005",
+              "as": "lat1"
+            },
+
+            {
+              "aggregate": [{ "op": "count", "as": "n" }],
+              "groupby": ["lon0", "lon1", "lat0", "lat1"]
+            }
+          ],
+          "mark": { "type": "rect", "stroke": "#ffffff", "strokeWidth": 0.5 },
+          "encoding": {
+            "longitude": { "field": "lon0", "type": "quantitative" },
+            "longitude2": { "field": "lon1" },
+            "latitude": { "field": "lat0", "type": "quantitative" },
+            "latitude2": { "field": "lat1" },
+            "color": {
+              "field": "n",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain": [2, 4, 8, 16],
+                "range": ["#fde8c8", "#f8b878", "#e8823a", "#c24e1a", "#7f2704"]
+              },
+              "legend": null
+            },
+            "tooltip": [{ "field": "n", "type": "quantitative", "title": "Artworks in this square" }]
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": { "type": "rule", "stroke": "#333333", "strokeWidth": 2 },
+          "encoding": {
+            "x": { "value": 18 },
+            "x2": { "value": 103 },
+            "y": { "value": 312 }
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": { "type": "text", "align": "left", "baseline": "bottom", "fontSize": 11, "color": "#333333", "text": "5 km" },
+          "encoding": {
+            "x": { "value": 18 },
+            "y": { "value": 306 }
+          }
+        }
+      ]
+    },
+    {
+      "title": { "text": "Canberra", "anchor": "start", "fontSize": 13 },
+      "width": 330,
+      "height": 330,
+      "projection": {
+        "type": "mercator",
+        "center": [149.13, -35.29],
+        "scale": 88450,
+        "translate": [165, 165]
+      },
+      "layer": [
+        {
+        "data": {
+        "url": "../Data/processed/Canberra roads.geojson",
+        "format": {"type": "json", "property": "features"}
+        },
+        "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#b8aea0",
+        "strokeWidth": 0.3
+        }
+            },
+        {
+          "transform": [
+            { "filter": "datum.city === 'Canberra' && isValid(datum.longitude) && isValid(datum.latitude)" },
+            { "calculate": "floor(datum.longitude / 0.01224) * 0.01224", "as": "lon0" },
+            { "calculate": "datum.lon0 + 0.01224", "as": "lon1" },
+            { "calculate": "floor(datum.latitude / 0.01) * 0.01", "as": "lat0" },
+            { "calculate": "datum.lat0 + 0.01", "as": "lat1" },
+            {
+              "aggregate": [{ "op": "count", "as": "n" }],
+              "groupby": ["lon0", "lon1", "lat0", "lat1"]
+            }
+          ],
+          "mark": { "type": "rect", "stroke": "#ffffff", "strokeWidth": 0.5 },
+          "encoding": {
+            "longitude": { "field": "lon0", "type": "quantitative" },
+            "longitude2": { "field": "lon1" },
+            "latitude": { "field": "lat0", "type": "quantitative" },
+            "latitude2": { "field": "lat1" },
+            "color": {
+              "field": "n",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain": [2, 4, 8, 16],
+                "range": ["#fde8c8", "#f8b878", "#e8823a", "#c24e1a", "#7f2704"]
+              },
+              "legend": null
+            },
+            "tooltip": [{ "field": "n", "type": "quantitative", "title": "Artworks in this square" }]
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": { "type": "rule", "stroke": "#333333", "strokeWidth": 2 },
+          "encoding": {
+            "x": { "value": 18 },
+            "x2": { "value": 103 },
+            "y": { "value": 312 }
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": { "type": "text", "align": "left", "baseline": "bottom", "fontSize": 11, "color": "#333333", "text": "5 km" },
+          "encoding": {
+            "x": { "value": 18 },
+            "y": { "value": 306 }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": { "scale": { "color": "shared" } }
+}

@@ -22,3 +22,4 @@ embedMap("#melbourne-map", "maps/map06_melbourne_point_map.json");
 embedMap("#canberra-map", "maps/map07_canberra_point_map.json");
 embedMap("#three-city-map", "maps/map08_three_city_comparison.json");
 embedMap("#material-map", "maps/map09_material_comparison.json");
+embedMap("#density-map", "maps/map10_density_comparison.json");
