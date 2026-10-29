@@ -1,0 +1,202 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Spatial clusters of Brisbane City Council public artworks, coloured by the most common material group in each area.",
+  "width": 720,
+  "height": 540,
+  "projection": {
+    "type": "mercator",
+    "center": [153.025, -27.47],
+    "scale": 105000 },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      
+      "transform": [
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ece7df",
+        "stroke": "#a89f93",
+        "strokeWidth": 0.7
+      }
+    },
+    {
+    "data": {
+      "url": "../Data/brisbane-suburbs.geojson",
+      "format": {"type": "json", "property": "features"}
+    },
+    "mark": {
+      "type": "geoshape",
+      "fill": "#ece7df",
+      "stroke": "#a89f93",
+      "strokeWidth": 0.7
+    }
+    },
+    {
+      "params": [
+        {
+          "name": "materialSelection",
+          "select": {
+            "type": "point",
+            "fields": ["material_group"]
+          },
+          "bind": "legend"
+        }
+      ],
+      "data": {
+        "url": "../Data/public-art-brisbane-clean.csv"
+      },
+      "transform": [
+        {
+          "filter": "isValid(datum.Longitude) && isValid(datum.Latitude)"
+        },
+        {
+          "calculate": "indexof(lower(datum['Main Material'] || ''), 'sandstone') >= 0 || indexof(lower(datum['Main Material'] || ''), 'granite') >= 0 || indexof(lower(datum['Main Material'] || ''), 'marble') >= 0 || indexof(lower(datum['Main Material'] || ''), 'stone') >= 0 ? 'Stone' : indexof(lower(datum['Main Material'] || ''), 'steel') >= 0 || indexof(lower(datum['Main Material'] || ''), 'metal') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminium') >= 0 || indexof(lower(datum['Main Material'] || ''), 'aluminum') >= 0 || indexof(lower(datum['Main Material'] || ''), 'copper') >= 0 || indexof(lower(datum['Main Material'] || ''), 'brass') >= 0 ? 'Metal' : indexof(lower(datum['Main Material'] || ''), 'concrete') >= 0 || indexof(lower(datum['Main Material'] || ''), 'cement') >= 0 ? 'Concrete' : indexof(lower(datum['Main Material'] || ''), 'wood') >= 0 || indexof(lower(datum['Main Material'] || ''), 'timber') >= 0 ? 'Wood' : indexof(lower(datum['Main Material'] || ''), 'ceramic') >= 0 ? 'Ceramic' : indexof(lower(datum['Main Material'] || ''), 'fibreglass') >= 0 || indexof(lower(datum['Main Material'] || ''), 'epoxy resin') >= 0 ? 'Synthetic / resin' : indexof(lower(datum['Main Material'] || ''), 'paint') >= 0 || indexof(lower(datum['Main Material'] || ''), 'neon') >= 0 ? 'Paint / light' : 'Other / unknown'",
+          "as": "material_group"
+        },
+        {
+          "bin": { "maxbins": 36 },
+          "field": "Longitude",
+          "as": ["longitude_bin", "longitude_bin_end"]
+        },
+        {
+          "bin": { "maxbins": 28 },
+          "field": "Latitude",
+          "as": ["latitude_bin", "latitude_bin_end"]
+        },
+        {
+          "aggregate": [
+            { "op": "count", "as": "material_count" }
+          ],
+          "groupby": [
+            "longitude_bin",
+            "longitude_bin_end",
+            "latitude_bin",
+            "latitude_bin_end",
+            "material_group"
+          ]
+        },
+        {
+          "joinaggregate": [
+            { "op": "sum", "field": "material_count", "as": "artwork_count" }
+          ],
+          "groupby": [
+            "longitude_bin",
+            "longitude_bin_end",
+            "latitude_bin",
+            "latitude_bin_end"
+          ]
+        },
+        {
+          "window": [
+            { "op": "rank", "as": "material_rank" }
+          ],
+          "groupby": [
+            "longitude_bin",
+            "longitude_bin_end",
+            "latitude_bin",
+            "latitude_bin_end"
+          ],
+          "sort": [
+            { "field": "material_count", "order": "descending" },
+            { "field": "material_group", "order": "ascending" }
+          ]
+        },
+        {
+          "filter": "datum.material_rank === 1"
+        },
+        {
+          "calculate": "(datum.longitude_bin + datum.longitude_bin_end) / 2",
+          "as": "cluster_longitude"
+        },
+        {
+          "calculate": "(datum.latitude_bin + datum.latitude_bin_end) / 2",
+          "as": "cluster_latitude"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.55
+      },
+      "encoding": {
+        "longitude": {
+          "field": "cluster_longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "cluster_latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "artwork_count",
+          "type": "quantitative",
+          "title": "Artworks in cluster",
+          "scale": { "range": [100, 1900] },
+          "legend": { "orient": "right" }
+        },
+        "color": {
+          "field": "material_group",
+          "type": "nominal",
+          "title": "Material group",
+          "scale": {
+            "domain": [
+              "Stone",
+              "Metal",
+              "Concrete",
+              "Wood",
+              "Ceramic",
+              "Synthetic / resin",
+              "Paint / light",
+              "Other / unknown"
+            ],
+            "range": [
+              "#C9A66B",
+              "#65737E",
+              "#9A9A9A",
+              "#8B5A2B",
+              "#6CA6A5",
+              "#8A6FA8",
+              "#D05A7B",
+              "#B8B1A8"
+            ]
+          },
+          "legend": {
+            "orient": "right",
+            "symbolSize": 95
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "materialSelection",
+            "value": 0.9
+          },
+          "value": 0.13
+        },
+        "tooltip": [
+          { "field": "artwork_count", "type": "quantitative", "title": "Artworks in this area", "format": ",d" },
+          { "field": "material_group", "type": "nominal", "title": "Most common material group" },
+          { "field": "material_count", "type": "quantitative", "title": "Artworks in that material group", "format": ",d" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "#fffdf9",
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "labelFont": "Arial",
+      "labelFontSize": 11,
+      "titleFont": "Arial",
+      "titleFontSize": 12
+    }
+  }
+}
