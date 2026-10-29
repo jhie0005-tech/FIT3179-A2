@@ -234,7 +234,7 @@
       "layer": [
         {
           "data": {
-            "url": "../Data/melbourne-property-boundaries.geojson",
+            "url": "Data/melbourne-property-boundaries.geojson",
             "format": {"type": "json", "property": "features"}
             },
             "mark": {
@@ -431,7 +431,7 @@
       "layer": [
         {
         "data": {
-        "url": "../Data/processed/Canberra roads.geojson",
+        "url": "Data/processed/Canberra roads.geojson",
         "format": {"type": "json", "property": "features"}
         },
         "mark": {

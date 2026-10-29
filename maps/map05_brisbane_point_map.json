@@ -28,7 +28,7 @@
     },
     {
     "data": {
-      "url": "../Data/brisbane-suburbs.geojson",
+      "url": "Data/brisbane-suburbs.geojson",
       "format": {"type": "json", "property": "features"}
     },
     "mark": {
@@ -50,7 +50,7 @@
         }
       ],
       "data": {
-        "url": "../Data/public-art-brisbane-clean.csv"
+        "url": "Data/public-art-brisbane-clean.csv"
       },
       "transform": [
         {

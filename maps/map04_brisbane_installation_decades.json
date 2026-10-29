@@ -5,8 +5,8 @@
   "height": 540,
   "projection": {"type": "mercator", "center": [153.025, -27.47], "scale": 105000},
   "layer": [
-    {"data": {"url": "../Data/brisbane-suburbs.geojson", "format": {"type": "json", "property": "features"}}, "mark": {"type": "geoshape", "fill": "#ece7df", "stroke": "#a89f93", "strokeWidth": 0.7}},
-    {"data": {"url": "../Data/public-art-brisbane-clean.csv"}, "transform": [
+    {"data": {"url": "Data/brisbane-suburbs.geojson", "format": {"type": "json", "property": "features"}}, "mark": {"type": "geoshape", "fill": "#ece7df", "stroke": "#a89f93", "strokeWidth": 0.7}},
+    {"data": {"url": "Data/public-art-brisbane-clean.csv"}, "transform": [
       {"filter": "isValid(datum.Longitude) && isValid(datum.Latitude) && isFinite(toNumber(datum.Installed))"},
       {"calculate": "toNumber(datum.Installed) < 1980 ? 'Before 1980' : toNumber(datum.Installed) < 1990 ? '1980s' : toNumber(datum.Installed) < 2000 ? '1990s' : toNumber(datum.Installed) < 2010 ? '2000s' : toNumber(datum.Installed) < 2020 ? '2010s' : '2020s'", "as": "installation_period"}
     ], "mark": {"type": "circle", "size": 58, "opacity": 0.85, "stroke": "#ffffff", "strokeWidth": 0.5}, "encoding": {

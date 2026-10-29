@@ -4,7 +4,7 @@
   "hconcat": [
     {
       "title": {"text": "Brisbane", "anchor": "start", "fontSize": 15, "font": "Georgia"},
-      "data": {"url": "../Data/public-art-brisbane-clean.csv"},
+      "data": {"url": "Data/public-art-brisbane-clean.csv"},
       "transform": [
         {"filter": "isFinite(toNumber(datum.Installed))"},
         {"calculate": "toNumber(datum.Installed) < 1980 ? 'Before 1980' : toNumber(datum.Installed) < 1990 ? '1980s' : toNumber(datum.Installed) < 2000 ? '1990s' : toNumber(datum.Installed) < 2010 ? '2000s' : toNumber(datum.Installed) < 2020 ? '2010s' : '2020s'", "as": "period"}
@@ -20,7 +20,7 @@
     },
     {
       "title": {"text": "Melbourne", "anchor": "start", "fontSize": 15, "font": "Georgia"},
-      "data": {"url": "../Data/processed/melbourne_artworks_clean.csv"},
+      "data": {"url": "Data/processed/melbourne_artworks_clean.csv"},
       "transform": [
         {"filter": "isFinite(toNumber(datum.installed_year))"},
         {"calculate": "toNumber(datum.installed_year) < 1980 ? 'Before 1980' : toNumber(datum.installed_year) < 1990 ? '1980s' : toNumber(datum.installed_year) < 2000 ? '1990s' : toNumber(datum.installed_year) < 2010 ? '2000s' : toNumber(datum.installed_year) < 2020 ? '2010s' : '2020s'", "as": "period"}

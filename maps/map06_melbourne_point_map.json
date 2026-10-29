@@ -28,7 +28,7 @@
     },
     {
     "data": {
-      "url": "../Data/melbourne-property-boundaries.geojson",
+      "url": "Data/melbourne-property-boundaries.geojson",
       "format": {"type": "json", "property": "features"}
     },
     "mark": {
@@ -50,7 +50,7 @@
         }
       ],
       "data": {
-        "url": "../Data/processed/melbourne_artworks_clean.csv"
+        "url": "Data/processed/melbourne_artworks_clean.csv"
       },
       "transform": [
         { "calculate": "toNumber(datum.latitude)", "as": "map_longitude" },

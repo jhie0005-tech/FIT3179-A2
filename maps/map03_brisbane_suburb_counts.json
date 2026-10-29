@@ -4,7 +4,7 @@
   "width": 720,
   "height": 540,
   "projection": {"type": "mercator", "center": [153.025, -27.47], "scale": 105000},
-  "data": {"url": "../Data/brisbane-suburbs.geojson", "format": {"type": "json", "property": "features"}},
+  "data": {"url": "Data/brisbane-suburbs.geojson", "format": {"type": "json", "property": "features"}},
   "transform": [
     {"calculate": "upper(datum.properties.SUBURB_NAME)", "as": "suburb"},
     {"lookup": "suburb", "from": {"data": {"values": [

@@ -26,7 +26,7 @@
     },
     {
     "data": {
-      "url": "../Data/processed/Canberra roads.geojson",
+      "url": "Data/processed/Canberra roads.geojson",
       "format": {"type": "json", "property": "features"}
     },
     "mark": {
@@ -48,7 +48,7 @@
         }
       ],
       "data": {
-        "url": "../Data/processed/act_artworks_clean.csv"
+        "url": "Data/processed/act_artworks_clean.csv"
       },
       "transform": [
         { "calculate": "toNumber(datum.latitude)", "as": "map_latitude" },
